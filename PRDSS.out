@@ -1,0 +1,15 @@
+\BOOKMARK [0][-]{section*.2}{The stepping-stone sampling algorithm for calculating the evidence of gravitational wave models}{}% 2
+\BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
+\BOOKMARK [1][-]{section*.3}{Introduction}{section*.2}% 3
+\BOOKMARK [1][-]{section*.4}{Computation of Marginal Likelihood}{section*.2}% 4
+\BOOKMARK [2][-]{section*.5}{Thermodynamic Integration}{section*.4}% 5
+\BOOKMARK [2][-]{section*.6}{Stepping-stone Sampling Algorithm}{section*.4}% 6
+\BOOKMARK [2][-]{section*.7}{Nested Sampling}{section*.4}% 7
+\BOOKMARK [1][-]{section*.8}{Estimation of the MC Standard Error of the Evidence}{section*.2}% 8
+\BOOKMARK [1][-]{section*.9}{Simulation Study}{section*.2}% 9
+\BOOKMARK [2][-]{section*.11}{Evidence estimate}{section*.9}% 10
+\BOOKMARK [2][-]{section*.12}{Standard error estimate}{section*.9}% 11
+\BOOKMARK [1][-]{section*.14}{Application to LIGO Data}{section*.2}% 12
+\BOOKMARK [1][-]{section*.15}{Discussion}{section*.2}% 13
+\BOOKMARK [1][-]{section*.16}{Acknowledgments}{section*.2}% 14
+\BOOKMARK [1][-]{section*.17}{References}{section*.2}% 15

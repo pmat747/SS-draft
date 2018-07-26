@@ -1,0 +1,260 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{20}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Newton}\ and\ \citenamefont
+  {Raftery}(1994)}]{Newton:Raftery:1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Newton}}\ and\ \bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont
+  {Raftery}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J.
+  Roy. Statist. Soc. Ser. B}\ }\textbf {\bibinfo {volume} {56}},\ \bibinfo
+  {pages} {3} (\bibinfo {year} {1994})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Xie}\ \emph {et~al.}(2011)\citenamefont {Xie},
+  \citenamefont {Lewis}, \citenamefont {Fan}, \citenamefont {Kuo},\ and\
+  \citenamefont {Chen}}]{Xie:Lewis:Fan:Kuo:Chen:2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Xie}}, \bibinfo {author} {\bibfnamefont {P.~O.}\ \bibnamefont {Lewis}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Fan}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Kuo}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.-H.}\ \bibnamefont {Chen}},\ }\href {\doibase
+  10.1093/sysbio/syq085} {\bibfield  {journal} {\bibinfo  {journal} {Syst.
+  Biol.}\ }\textbf {\bibinfo {volume} {60}},\ \bibinfo {pages} {150} (\bibinfo
+  {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lartillot}\ and\ \citenamefont
+  {Philippe}(2006)}]{Lartillot:Philippe:2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Lartillot}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Philippe}},\ }\href {\doibase 10.1080/10635150500433722} {\bibfield
+  {journal} {\bibinfo  {journal} {Syst. Biol.}\ }\textbf {\bibinfo {volume}
+  {55}},\ \bibinfo {pages} {195} (\bibinfo {year} {2006})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Friel}\ and\ \citenamefont
+  {Pettitt}(2008)}]{Friel:2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Friel}}\ and\ \bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont
+  {Pettitt}},\ }\href {\doibase 10.1111/j.1467-9868.2007.00650.x} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Roy. Stat. Soc. B}\ }\textbf {\bibinfo
+  {volume} {70}},\ \bibinfo {pages} {589} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Neal}(2001)}]{Neal:2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {Neal}},\ }\href {\doibase 10.1023/A:1008923215028} {\bibfield  {journal}
+  {\bibinfo  {journal} {Stat. Comput.}\ }\textbf {\bibinfo {volume} {11}},\
+  \bibinfo {pages} {125} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Veitch}\ \emph {et~al.}(2015)\citenamefont {Veitch},
+  \citenamefont {Raymond}, \citenamefont {Farr}, \citenamefont {Farr},
+  \citenamefont {Graff}, \citenamefont {Vitale}, \citenamefont {Aylott},
+  \citenamefont {Blackburn}, \citenamefont {Christensen}, \citenamefont
+  {Coughlin}, \citenamefont {Del~Pozzo}, \citenamefont {Feroz}, \citenamefont
+  {Gair}, \citenamefont {Haster}, \citenamefont {Kalogera}, \citenamefont
+  {Littenberg}, \citenamefont {Mandel}, \citenamefont {O'Shaughnessy},
+  \citenamefont {Pitkin}, \citenamefont {Rodriguez}, \citenamefont {R\"over},
+  \citenamefont {Sidery}, \citenamefont {Smith}, \citenamefont {Van Der~Sluys},
+  \citenamefont {Vecchio}, \citenamefont {Vousden},\ and\ \citenamefont
+  {Wade}}]{Veitch:2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Veitch}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Raymond}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Farr}}, \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Farr}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Graff}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Vitale}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Aylott}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Blackburn}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Christensen}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Coughlin}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Del~Pozzo}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {Feroz}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Gair}}, \bibinfo {author} {\bibfnamefont {C.-J.}\
+  \bibnamefont {Haster}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Kalogera}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Littenberg}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mandel}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {O'Shaughnessy}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Pitkin}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Rodriguez}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {R\"over}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Sidery}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Smith}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Van Der~Sluys}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Vecchio}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Vousden}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Wade}},\ }\href {\doibase 10.1103/PhysRevD.91.042003}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {91}},\ \bibinfo {pages} {042003} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Skilling}(2006)}]{Skilling:2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Skilling}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Bayesian Analysis}\ }\textbf {\bibinfo {volume} {1}},\ \bibinfo {pages}
+  {833} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Brewer}}\ and\ \citenamefont
+  {{Donovan}}(2015)}]{Brewer:Donovan:2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
+  {{Brewer}}}\ and\ \bibinfo {author} {\bibfnamefont {C.~P.}\ \bibnamefont
+  {{Donovan}}},\ }\href {\doibase 10.1093/mnras/stv199} {\bibfield  {journal}
+  {\bibinfo  {journal} {Mon. Not. R. Astron. Soc.}\ }\textbf {\bibinfo {volume}
+  {448}},\ \bibinfo {pages} {3206} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Feroz}\ \emph {et~al.}(2009)\citenamefont {Feroz},
+  \citenamefont {Hobson},\ and\ \citenamefont {Bridges}}]{Feroz:2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Feroz}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Hobson}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Bridges}},\ }\href
+  {\doibase 10.1111/j.1365-2966.2009.14548.x} {\bibfield  {journal} {\bibinfo
+  {journal} {Monthly Notices of the Royal Astronomical Society}\ }\textbf
+  {\bibinfo {volume} {398}},\ \bibinfo {pages} {1601} (\bibinfo {year}
+  {2009})},\ \bibinfo {note} {cited By 723}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Henderson}\ \emph {et~al.}(2017)\citenamefont
+  {Henderson}, \citenamefont {Goggans},\ and\ \citenamefont
+  {Cao}}]{Henderson:2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Henderson}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Goggans}},
+  \ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Cao}},\ }\href
+  {\doibase 10.1016/j.dsp.2017.07.021} {\bibfield  {journal} {\bibinfo
+  {journal} {Digital Signal Processing: A Review Journal}\ }\textbf {\bibinfo
+  {volume} {70}},\ \bibinfo {pages} {84} (\bibinfo {year} {2017})},\ \bibinfo
+  {note} {cited By 1}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Maturana~R.}\ \emph {et~al.}(2017)\citenamefont
+  {Maturana~R.}, \citenamefont {Brewer}, \citenamefont {Klaere},\ and\
+  \citenamefont {Bouckaert}}]{Maturana:2017b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Maturana~R.}}, \bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
+  {Brewer}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Klaere}}, \
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Bouckaert}},\
+  }\href@noop {} {\enquote {\bibinfo {title} {{Model selection and parameter
+  inference in phylogenetics using Nested Sampling}},}\ }\bibinfo
+  {howpublished} {ArXiv preprint arXiv:1703.05471v2} (\bibinfo {year}
+  {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Maturana~Russel}(2018)}]{Maturana:2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Maturana~Russel}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle}
+  {Bayesian Inference and Maximum Entropy Methods in Science and
+  Engineering}}},\ \bibinfo {editor} {edited by\ \bibinfo {editor}
+  {\bibfnamefont {A.}~\bibnamefont {Polpo}}, \bibinfo {editor} {\bibfnamefont
+  {J.}~\bibnamefont {Stern}}, \bibinfo {editor} {\bibfnamefont
+  {F.}~\bibnamefont {Louzada}}, \bibinfo {editor} {\bibfnamefont
+  {R.}~\bibnamefont {Izbicki}}, \ and\ \bibinfo {editor} {\bibfnamefont
+  {H.}~\bibnamefont {Takada}}}\ (\bibinfo  {publisher} {Springer International
+  Publishing},\ \bibinfo {address} {Cham},\ \bibinfo {year} {2018})\ pp.\
+  \bibinfo {pages} {211--219}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cornish}\ and\ \citenamefont
+  {Littenberg}(2015)}]{Cornish:2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~J.}\ \bibnamefont
+  {Cornish}}\ and\ \bibinfo {author} {\bibfnamefont {T.~B.}\ \bibnamefont
+  {Littenberg}},\ }\href {\doibase 10.1088/0264-9381/32/13/135012} {\bibfield
+  {journal} {\bibinfo  {journal} {Class. Quant. Grav.}\ }\textbf {\bibinfo
+  {volume} {32}},\ \bibinfo {pages} {135012} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1410.3835;%%
+\bibitem [{\citenamefont {Gelman}\ and\ \citenamefont
+  {Meng}(1998)}]{Gelman:1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Gelman}}\ and\ \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Meng}},\
+  }\href {\doibase 10.1214/ss/1028905934} {\bibfield  {journal} {\bibinfo
+  {journal} {Statistical Science}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo
+  {pages} {163} (\bibinfo {year} {1998})},\ \bibinfo {note} {cited By
+  437}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Neal}(1993)}]{Neal:1993}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {Neal}},\ }\href@noop {} {\  (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Maturana~R.}(2017)}]{Maturana:2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Maturana~R.}},\ }\emph {\bibinfo {title} {{Bayesian inference in
+  phylogenetics using Nested Sampling}}},\ \href@noop {} {Ph.D. thesis},\
+  \bibinfo  {school} {The University of Auckland} (\bibinfo {year}
+  {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Efron}(1979)}]{Efron:1979}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Efron}},\ }\href {\doibase 10.1214/aos/1176344552} {\bibfield  {journal}
+  {\bibinfo  {journal} {Ann. Statist.}\ }\textbf {\bibinfo {volume} {7}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {1979})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kunsch}(1989)}]{Kunsch:1989}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~R.}\ \bibnamefont
+  {Kunsch}},\ }\href {\doibase 10.1214/aos/1176347265} {\bibfield  {journal}
+  {\bibinfo  {journal} {Ann. Statist.}\ }\textbf {\bibinfo {volume} {17}},\
+  \bibinfo {pages} {1217} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lahiri}(2003)}]{Lahiri:2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~N.}\ \bibnamefont
+  {Lahiri}},\ }\href@noop {} {\emph {\bibinfo {title} {Resampling Methods for
+  Dependent Data}}},\ Springer series in statistics\ (\bibinfo  {publisher}
+  {Springer New York},\ \bibinfo {address} {New York, NY},\ \bibinfo {year}
+  {2003})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fan}\ \emph {et~al.}(2011)\citenamefont {Fan},
+  \citenamefont {Wu}, \citenamefont {Chen}, \citenamefont {Kuo},\ and\
+  \citenamefont {Lewis}}]{fan:2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Fan}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Wu}}, \bibinfo
+  {author} {\bibfnamefont {M.-H.}\ \bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Kuo}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {P.~O.}\ \bibnamefont {Lewis}},\ }\href {\doibase
+  10.1093/molbev/msq224} {\bibfield  {journal} {\bibinfo  {journal} {Mol. Biol.
+  Evol.}\ }\textbf {\bibinfo {volume} {28}},\ \bibinfo {pages} {523} (\bibinfo
+  {year} {2011})}\BibitemShut {NoStop}%
+\end{thebibliography}%
