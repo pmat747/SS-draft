@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.6)  17 JUL 2018 17:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.6)  27 JUL 2018 14:14
 entering extended mode
 **PRDSS.tex
 (C:\Users\pmat747\Documents\PostDoc\Manuscripts\steppingstone\PRDSS.tex
@@ -800,14 +800,14 @@ T1/cmr/m/n/10 =$
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 269.
 
-<figures/toyExBetaTemp.pdf, id=167, 505.89pt x 505.89pt>
+<figures/toyExBetaTemp.pdf, id=171, 505.89pt x 505.89pt>
 File: figures/toyExBetaTemp.pdf Graphic file (type pdf)
 
 <use figures/toyExBetaTemp.pdf>
 Package pdftex.def Info: figures/toyExBetaTemp.pdf used on input line 272.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
-<figures/toyExUnifTemp.pdf, id=169, 505.89pt x 505.89pt>
+<figures/toyExUnifTemp.pdf, id=173, 505.89pt x 505.89pt>
 File: figures/toyExUnifTemp.pdf Graphic file (type pdf)
 
 <use figures/toyExUnifTemp.pdf>
@@ -830,7 +830,7 @@ res/toyExUnifTemp.pdf>]
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 299.
 
-<figures/ErrorEstimates_DepMC.pdf, id=196, 505.89pt x 505.89pt>
+<figures/ErrorEstimates_DepMC.pdf, id=200, 505.89pt x 505.89pt>
 File: figures/ErrorEstimates_DepMC.pdf Graphic file (type pdf)
 
 <use figures/ErrorEstimates_DepMC.pdf>
@@ -838,7 +838,7 @@ Package pdftex.def Info: figures/ErrorEstimates_DepMC.pdf used on input line 30
 2.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
-<figures/ErrorEstimates_IndMC.pdf, id=198, 505.89pt x 505.89pt>
+<figures/ErrorEstimates_IndMC.pdf, id=202, 505.89pt x 505.89pt>
 File: figures/ErrorEstimates_IndMC.pdf Graphic file (type pdf)
 
 <use figures/ErrorEstimates_IndMC.pdf>
@@ -864,22 +864,22 @@ Underfull \hbox (badness 1406) in paragraph at lines 134--138
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 182--186
+Underfull \hbox (badness 2042) in paragraph at lines 191--195
  []\OT1/cmr/m/n/9 P. Mat-u-rana R., B. J. Brewer, S. Klaere,  and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--200
+Underfull \hbox (badness 10000) in paragraph at lines 198--208
  []\OT1/cmr/m/n/9 P. Mat-u-rana Rus-sel, in
  []
 
 
-Overfull \hbox (98.25383pt too wide) in paragraph at lines 189--200
+Overfull \hbox (98.25383pt too wide) in paragraph at lines 198--208
  |   []\OT1/cmr/m/n/9 ,
  []
 
 
-Overfull \hbox (78.80608pt too wide) in paragraph at lines 225--229
+Overfull \hbox (78.80608pt too wide) in paragraph at lines 240--244
  []\OT1/cmr/m/n/9 P. Mat-u-rana R., |   [],
  []
 
@@ -897,10 +897,10 @@ Package rerunfilecheck Info: File `PRDSS.out' has not changed.
 (rerunfilecheck)             Checksum: 94279F7C3F0C160141EE81A5D705AF8E;1095.
  ) 
 Here is how much of TeX's memory you used:
- 18121 strings out of 493921
- 318280 string characters out of 3144871
- 429042 words of memory out of 3000000
- 21050 multiletter control sequences out of 15000+200000
+ 18131 strings out of 493921
+ 318457 string characters out of 3144871
+ 430105 words of memory out of 3000000
+ 21058 multiletter control sequences out of 15000+200000
  15050 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,11n,55p,1414b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -924,9 +924,9 @@ e1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmti9.pfb>
-Output written on PRDSS.pdf (7 pages, 331554 bytes).
+Output written on PRDSS.pdf (7 pages, 332890 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
