@@ -130,7 +130,7 @@ as we will show in section \ref{sec:simulation}.
 Another method to estimate the evidence,  not based on power posteriors, is nested sampling (NS) \citep{Skilling:2006, Veitch:2010}.  This Bayesian algorithm has been successfully applied in diverse fields, such as astronomy \citep{Brewer:Donovan:2015} {\cb John: please add references}, cosmology \citep{Feroz:2009},  engineering \citep{Henderson:2017} and phylogenetics \citep{Maturana:2017b, Maturana:2018}. To estimate the evidence of GW models, NS has been implemented in the software package LALInference \citep{Veitch:2015}.  The method has the unique property of yielding an estimation of the uncertainty associated to the evidence estimate in a single run (subject to the independence of the samples), unlike power posterior methods. {\cb But this only holds for independent samples, not when running MCMC to sample from the
 restricted prior as is done in practice}.
 
-Alternatively, instead of estimating the evidence for each model being tested, a trans-dimensional Reversible Jump Markov chain Monte Carlo \citep[RJMCMC;][]{Green:1995} method can be used in order to explore the joint space of all models.  Then the probability for each model can be calculated simply by calculating the relative frequency of visits to each model by the Markov chain.  However, this exploration depends on tuning parameters which can be difficult to specify, leading to poor mixing of the Markov chain and subsequently to large statistical errors associated with the evidence estimates \citep{Cornish:2014}.
+Alternatively, instead of estimating the evidence for each model being tested, a trans-dimensional Reversible Jump Markov chain Monte Carlo \citep[RJMCMC;][]{Green:1995, Umstatter:2005} method can be used in order to explore the joint space of all models.  Then the probability for each model can be calculated simply by calculating the relative frequency of visits to each model by the Markov chain.  However, this exploration depends on tuning parameters which can be difficult to specify, leading to poor mixing of the Markov chain and subsequently to large statistical errors associated with the evidence estimates \citep{Cornish:2014}.
 
 %{\cb I am not sure whether we need to include RJMCMC}.
 
@@ -142,7 +142,9 @@ Below we describe TI, SS and NS in more detail before comparing their performanc
 \subsection{Thermodynamic Integration}
 Thermodynamic integration  or the more general path sampling \citep{Gelman:1998} make use of an auxiliary variable $\beta$, $0\leq \beta \leq 1$, to
 define transitional distributions, namely the power posterior distributions defined in (\ref{eq:powerposterior}) in the case of TI, that provide a path from the prior ($\beta=0$) to the posterior distribution ($\beta=1$). By explicitly denoting the evidence $z_\beta$ as a function of $\beta$ by
-\[z(\bm{X}|\beta)=\int_{\Theta} L(\bm{X}|\bm{\theta},M)^{\beta}\pi(\bm{\theta}|M) \text{d}\bm{\theta},\]
+\begin{align}
+z(\bm{X}|\beta)=\int_{\Theta} L(\bm{X}|\bm{\theta},M)^{\beta}\pi(\bm{\theta}|M) \text{d}\bm{\theta},
+\end{align}
 the log marginal likelihood has the representation as the integral over the 1-dimensional parameter $\beta$ of half the mean deviance where the expectation is taken with respect to the power posterior:
 \begin{equation}\label{eq:TI}
 \log(z)=\log\left( \frac{z(\bm{X}|\beta=1)}{z(\bm{X}|\beta=0)}\right)=\int_0^1 E_{\beta} \left[ \log(p(\bm{X}|\bm{\theta},M)\right]\text{d}\beta.
@@ -178,7 +180,7 @@ SS estimates each ratio $r_k$ by importance sampling using $p_{\beta_{k-1}}$ as 
 r_k = \frac{z_{\beta_{k}}}{z_{\beta_{k-1}}} &= \int_{\Theta}\frac{L(\bm{X}|\bm{\theta},M)^{\beta_{k \quad}}}{L(\bm{X}|\bm{\theta},M)^{\beta_{k-1}}} \: p_{\beta_{k-1}}(\bm{\theta}|\bm{X},M) \text{d}\bm{\theta}, 
 %&=\mathds{E}_{p_{\beta_{k-1}}}\bigg[ \frac{q_{\beta_{k}}(\bm{\theta})}{q_{\beta_{k-1}}(\bm{\theta})} \bigg].
 \end{align*}
-which is estimated by its unbiased MC estimator
+which is estimated by its unbiased Monte Carlo estimator
 \begin{align*}
 \widehat{r}_k = \frac{1}{n} \sum_{i = 1}^{n}  L( \bm X | \bm{\theta}_{\!\beta_{k-1}}^{i}, M)^{\beta_{k}-\beta_{k-1}},
 \end{align*}
@@ -294,7 +296,7 @@ Both methods improve their performance when most of the computational effort is 
 \subsection{Standard error estimate}
 \label{subsec:SDest}
 
-Based on the case that the $\beta$ values follow a Beta(0.3, 1) distribution, we study the performance of the MBB method for estimating the evidence error.  For this, we calculate the standard error from the 1000 independent evidence estimates used in the previous analysis and compare it to the values calculated via MBB for different block lengths, $\ell = 1, 10, 30, 50, 100, 200, 300$.  
+Based on the case that the $\beta$ values follow a Beta(0.3, 1) distribution, we study the performance of the MBB method for estimating the evidence error.  For this, we calculate the standard error from the 1000 independent evidence estimates used in the previous analysis and compare it to the values calculated using MBB for different block lengths, $\ell = 1, 10, 30, 50, 100, 200, 300$, via their differences.  
 
 \begin{figure}[]
 	\begin{subfigure}{0.50\textwidth}
@@ -309,14 +311,14 @@ Based on the case that the $\beta$ values follow a Beta(0.3, 1) distribution, we
 	\caption{The samples in the Markov chain are completely independent.}
 	\label{fig2b}
 	\end{subfigure}
-	\caption{Standard error of independent evidence estimates versus the one calculated via MBB.  The numbers inside the plot stand for $K$, number of temperatures.  The legend describes the different block lengths used in MBB.}
+	\caption{Difference between the standard error calculated via MBB and the one from independent evidence estimates.  The legend describes the different block lengths used in MBB.}
 	\label{fig2}
 \end{figure}
 
 The results are shown in Figure~\ref{fig2a}.  The case $\ell = 1$ is the original bootstrap method, which is used frequently for power posterior methods, but which ignores the dependence in the sampled values of the Markov chain.  It is obvious that in the simple bootstrap with block length $\ell=1$, the standard error is severely underestimated. On the other hand, the standard error estimates  improved significantly using 
 the MBB with larger block lengths, but still some underestimate  the standard error.  However, this example is an extreme case of highly correlated Markov chains.  
 
-We have also performed the analysis in the ideal case that the samples in the Markov chains are completely independent.  The result are displayed in Figure~\ref{fig2b}.  In this case, the standard bootstrap method, that is $\ell = 1$, is sufficient to estimate the standard error reasonable. Large block lengths cause, in general, a slight underestimation in the case of low temperature numbers, but as the number of temperatures increases, the estimates are located around the empirical error estimates and less dispersed.
+We have also performed the analysis in the ideal case that the samples in the Markov chains are completely independent.  The result are displayed in Figure~\ref{fig2b}.  In this case, the standard bootstrap method, that is $\ell = 1$, is sufficient to estimate the standard error reasonable. Large block lengths cause, in general, a slight underestimation in the case of low temperature numbers, but as the number of temperatures increases, the estimates are located around the empirical error estimates, i.e., around zero, and less dispersed.
 
 %{\cb For independent samples, we have no autocorrelation, just cross-correlation between chains due to the swaps. I would guess that for that case, $\ell=1$ would work fine as long as we are resampling the same blocks in the parallel chains. I think we should explain that in the text in Section III as well.}
 
