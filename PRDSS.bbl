@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{23}%
+\begin{thebibliography}{41}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,6 +50,255 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {{Saha}}\ and\ \citenamefont
+  {{Williams}}(1994)}]{1994AJ....107.1295S}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Saha}}}\ and\ \bibinfo {author} {\bibfnamefont {T.~B.}\ \bibnamefont
+  {{Williams}}},\ }\href {\doibase 10.1086/116942} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Astronomical Journal}\ }\textbf {\bibinfo {volume}
+  {107}},\ \bibinfo {pages} {1295} (\bibinfo {year} {1994})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Christensen}\ and\ \citenamefont
+  {Meyer}(1998)}]{PhysRevD.58.082001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Christensen}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Meyer}},\ }\href {\doibase 10.1103/PhysRevD.58.082001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {58}},\
+  \bibinfo {pages} {082001} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Christensen}\ \emph {et~al.}(2001)\citenamefont
+  {Christensen}, \citenamefont {Meyer}, \citenamefont {Knox},\ and\
+  \citenamefont {Luey}}]{0264-9381-18-14-306}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Christensen}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Meyer}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Knox}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Luey}},\ }\href
+  {http://stacks.iop.org/0264-9381/18/i=14/a=306} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical and Quantum Gravity}\ }\textbf {\bibinfo
+  {volume} {18}},\ \bibinfo {pages} {2677} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Knox}\ \emph {et~al.}(2001)\citenamefont {Knox},
+  \citenamefont {Christensen},\ and\ \citenamefont
+  {Skordis}}]{1538-4357-563-2-L95}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Knox}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Christensen}}, \
+  and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Skordis}},\ }\href
+  {http://stacks.iop.org/1538-4357/563/i=2/a=L95} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Astrophysical Journal Letters}\ }\textbf {\bibinfo
+  {volume} {563}},\ \bibinfo {pages} {L95} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont
+  {Sharma}(2017)}]{doi:10.1146/annurev-astro-082214-122339}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Sharma}},\ }\href {\doibase 10.1146/annurev-astro-082214-122339} {\bibfield
+  {journal} {\bibinfo  {journal} {Annual Review of Astronomy and Astrophysics}\
+  }\textbf {\bibinfo {volume} {55}},\ \bibinfo {pages} {213} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hinshaw}\ \emph {et~al.}(2013)\citenamefont {Hinshaw}
+  \emph {et~al.}}]{0067-0049-208-2-19}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Hinshaw}} \emph {et~al.},\ }\href
+  {http://stacks.iop.org/0067-0049/208/i=2/a=19} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Astrophysical Journal Supplement Series}\ }\textbf
+  {\bibinfo {volume} {208}},\ \bibinfo {pages} {19} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Planck Collaboration}}\ \emph
+  {et~al.}(2014)\citenamefont {{Planck Collaboration}}, \citenamefont {{Ade, P.
+  A. R.}} \emph {et~al.}}]{Planck2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Planck
+  Collaboration}}}, \bibinfo {author} {\bibnamefont {{Ade, P. A. R.}}},  \emph
+  {et~al.},\ }\href {\doibase 10.1051/0004-6361/201321591} {\bibfield
+  {journal} {\bibinfo  {journal} {Astronomy \& Astrophysics}\ }\textbf
+  {\bibinfo {volume} {571}},\ \bibinfo {pages} {A16} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Planck Collaboration}}\ \emph
+  {et~al.}(2016)\citenamefont {{Planck Collaboration}}, \citenamefont {{Ade, P.
+  A. R.}} \emph {et~al.}}]{Planck2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Planck
+  Collaboration}}}, \bibinfo {author} {\bibnamefont {{Ade, P. A. R.}}},  \emph
+  {et~al.},\ }\href {\doibase 10.1051/0004-6361/201525830} {\bibfield
+  {journal} {\bibinfo  {journal} {Astronomy \& Astrophysics}\ }\textbf
+  {\bibinfo {volume} {594}},\ \bibinfo {pages} {A13} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2016{\natexlab{a}})\citenamefont {Abbott} \emph
+  {et~al.}}]{PhysRevLett.116.061102}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific
+  Collaboration and Virgo Collaboration}),\ }\href {\doibase
+  10.1103/PhysRevLett.116.061102} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo {pages}
+  {061102} (\bibinfo {year} {2016}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2016{\natexlab{b}})\citenamefont {Abbott} \emph
+  {et~al.}}]{PhysRevLett.116.241102}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific
+  Collaboration and Virgo Collaboration}),\ }\href {\doibase
+  10.1103/PhysRevLett.116.241102} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo {pages}
+  {241102} (\bibinfo {year} {2016}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Renate}\ and\ \citenamefont
+  {Nelson}()}]{doi:10.1111/j.1740-9713.2016.00896.x}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Renate}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Nelson}},\ }\href {\doibase 10.1111/j.1740-9713.2016.00896.x} {\bibfield
+  {journal} {\bibinfo  {journal} {Significance}\ }\textbf {\bibinfo {volume}
+  {13}},\ \bibinfo {pages} {20}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2017{\natexlab{a}})\citenamefont {Abbott} \emph
+  {et~al.}}]{PhysRevLett.119.161101}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific
+  Collaboration and Virgo Collaboration}),\ }\href {\doibase
+  10.1103/PhysRevLett.119.161101} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages}
+  {161101} (\bibinfo {year} {2017}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhu}\ \emph {et~al.}(2017)\citenamefont {Zhu},
+  \citenamefont {Chen}, \citenamefont {Hu},\ and\ \citenamefont
+  {Zhang}}]{doi:10.1093/nsr/nwx044}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Zhu}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Chen}}, \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {Hu}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Zhang}},\ }\href {\doibase
+  10.1093/nsr/nwx044} {\bibfield  {journal} {\bibinfo  {journal} {National
+  Science Review}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages} {627}
+  (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Goldstein}\ \emph {et~al.}(2017)\citenamefont
+  {Goldstein}, \citenamefont {Veres}, \citenamefont {Burns}, \citenamefont
+  {Briggs}, \citenamefont {Hamburg}, \citenamefont {Kocevski}, \citenamefont
+  {Wilson-Hodge}, \citenamefont {Preece}, \citenamefont {Poolakkil},
+  \citenamefont {Roberts}, \citenamefont {Hui}, \citenamefont {Connaughton},
+  \citenamefont {Racusin}, \citenamefont {von Kienlin}, \citenamefont {Canton},
+  \citenamefont {Christensen}, \citenamefont {Littenberg}, \citenamefont
+  {Siellez}, \citenamefont {Blackburn}, \citenamefont {Broida}, \citenamefont
+  {Bissaldi}, \citenamefont {Cleveland}, \citenamefont {Gibby}, \citenamefont
+  {Giles}, \citenamefont {Kippen}, \citenamefont {McBreen}, \citenamefont
+  {McEnery}, \citenamefont {Meegan}, \citenamefont {Paciesas},\ and\
+  \citenamefont {Stanbro}}]{2041-8205-848-2-L14}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Goldstein}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Veres}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Burns}}, \bibinfo
+  {author} {\bibfnamefont {M.~S.}\ \bibnamefont {Briggs}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Hamburg}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Kocevski}}, \bibinfo {author} {\bibfnamefont {C.~A.}\
+  \bibnamefont {Wilson-Hodge}}, \bibinfo {author} {\bibfnamefont {R.~D.}\
+  \bibnamefont {Preece}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Poolakkil}}, \bibinfo {author} {\bibfnamefont {O.~J.}\ \bibnamefont
+  {Roberts}}, \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont {Hui}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Connaughton}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Racusin}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {von Kienlin}}, \bibinfo {author}
+  {\bibfnamefont {T.~D.}\ \bibnamefont {Canton}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Christensen}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Littenberg}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Siellez}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Blackburn}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Broida}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Bissaldi}}, \bibinfo {author} {\bibfnamefont {W.~H.}\
+  \bibnamefont {Cleveland}}, \bibinfo {author} {\bibfnamefont {M.~H.}\
+  \bibnamefont {Gibby}}, \bibinfo {author} {\bibfnamefont {M.~M.}\ \bibnamefont
+  {Giles}}, \bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont {Kippen}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {McBreen}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {McEnery}}, \bibinfo {author}
+  {\bibfnamefont {C.~A.}\ \bibnamefont {Meegan}}, \bibinfo {author}
+  {\bibfnamefont {W.~S.}\ \bibnamefont {Paciesas}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Stanbro}},\ }\href
+  {http://stacks.iop.org/2041-8205/848/i=2/a=L14} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Astrophysical Journal Letters}\ }\textbf {\bibinfo
+  {volume} {848}},\ \bibinfo {pages} {L14} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aasi}\ \emph {et~al.}(2015)\citenamefont {Aasi} \emph
+  {et~al.}}]{0264-9381-32-7-074001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Aasi}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific
+  Collaboration and Virgo Collaboration}),\ }\href
+  {http://stacks.iop.org/0264-9381/32/i=7/a=074001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical and Quantum Gravity}\ }\textbf {\bibinfo
+  {volume} {32}},\ \bibinfo {pages} {074001} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Acernese}\ \emph {et~al.}(2015)\citenamefont
+  {Acernese} \emph {et~al.}}]{0264-9381-32-2-024001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Acernese}} \emph {et~al.},\ }\href
+  {http://stacks.iop.org/0264-9381/32/i=2/a=024001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical and Quantum Gravity}\ }\textbf {\bibinfo
+  {volume} {32}},\ \bibinfo {pages} {024001} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2017{\natexlab{b}})\citenamefont {Abbott} \emph
+  {et~al.}}]{2041-8205-848-2-L12}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.},\ }\href
+  {http://stacks.iop.org/2041-8205/848/i=2/a=L12} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Astrophysical Journal Letters}\ }\textbf {\bibinfo
+  {volume} {848}},\ \bibinfo {pages} {L12} (\bibinfo {year}
+  {2017}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Singer}\ and\ \citenamefont
+  {Price}(2016)}]{PhysRevD.93.024013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~P.}\ \bibnamefont
+  {Singer}}\ and\ \bibinfo {author} {\bibfnamefont {L.~R.}\ \bibnamefont
+  {Price}},\ }\href {\doibase 10.1103/PhysRevD.93.024013} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {93}},\
+  \bibinfo {pages} {024013} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Veitch}\ \emph {et~al.}(2015)\citenamefont {Veitch},
+  \citenamefont {Raymond}, \citenamefont {Farr}, \citenamefont {Farr},
+  \citenamefont {Graff}, \citenamefont {Vitale}, \citenamefont {Aylott},
+  \citenamefont {Blackburn}, \citenamefont {Christensen}, \citenamefont
+  {Coughlin}, \citenamefont {Del~Pozzo}, \citenamefont {Feroz}, \citenamefont
+  {Gair}, \citenamefont {Haster}, \citenamefont {Kalogera}, \citenamefont
+  {Littenberg}, \citenamefont {Mandel}, \citenamefont {O'Shaughnessy},
+  \citenamefont {Pitkin}, \citenamefont {Rodriguez}, \citenamefont {R\"over},
+  \citenamefont {Sidery}, \citenamefont {Smith}, \citenamefont {Van Der~Sluys},
+  \citenamefont {Vecchio}, \citenamefont {Vousden},\ and\ \citenamefont
+  {Wade}}]{Veitch:2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Veitch}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Raymond}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Farr}}, \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Farr}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Graff}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Vitale}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Aylott}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Blackburn}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Christensen}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Coughlin}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Del~Pozzo}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {Feroz}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Gair}}, \bibinfo {author} {\bibfnamefont {C.-J.}\
+  \bibnamefont {Haster}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Kalogera}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Littenberg}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mandel}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {O'Shaughnessy}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Pitkin}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Rodriguez}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {R\"over}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Sidery}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Smith}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Van Der~Sluys}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Vecchio}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Vousden}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Wade}},\ }\href {\doibase 10.1103/PhysRevD.91.042003}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {91}},\ \bibinfo {pages} {042003} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Newton}\ and\ \citenamefont
   {Raftery}(1994)}]{Newton:Raftery:1994}%
   \BibitemOpen
@@ -94,47 +343,6 @@
   {Neal}},\ }\href {\doibase 10.1023/A:1008923215028} {\bibfield  {journal}
   {\bibinfo  {journal} {Stat. Comput.}\ }\textbf {\bibinfo {volume} {11}},\
   \bibinfo {pages} {125} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Veitch}\ \emph {et~al.}(2015)\citenamefont {Veitch},
-  \citenamefont {Raymond}, \citenamefont {Farr}, \citenamefont {Farr},
-  \citenamefont {Graff}, \citenamefont {Vitale}, \citenamefont {Aylott},
-  \citenamefont {Blackburn}, \citenamefont {Christensen}, \citenamefont
-  {Coughlin}, \citenamefont {Del~Pozzo}, \citenamefont {Feroz}, \citenamefont
-  {Gair}, \citenamefont {Haster}, \citenamefont {Kalogera}, \citenamefont
-  {Littenberg}, \citenamefont {Mandel}, \citenamefont {O'Shaughnessy},
-  \citenamefont {Pitkin}, \citenamefont {Rodriguez}, \citenamefont {R\"over},
-  \citenamefont {Sidery}, \citenamefont {Smith}, \citenamefont {Van Der~Sluys},
-  \citenamefont {Vecchio}, \citenamefont {Vousden},\ and\ \citenamefont
-  {Wade}}]{Veitch:2015}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Veitch}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Raymond}},
-  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Farr}}, \bibinfo {author}
-  {\bibfnamefont {W.}~\bibnamefont {Farr}}, \bibinfo {author} {\bibfnamefont
-  {P.}~\bibnamefont {Graff}}, \bibinfo {author} {\bibfnamefont
-  {S.}~\bibnamefont {Vitale}}, \bibinfo {author} {\bibfnamefont
-  {B.}~\bibnamefont {Aylott}}, \bibinfo {author} {\bibfnamefont
-  {K.}~\bibnamefont {Blackburn}}, \bibinfo {author} {\bibfnamefont
-  {N.}~\bibnamefont {Christensen}}, \bibinfo {author} {\bibfnamefont
-  {M.}~\bibnamefont {Coughlin}}, \bibinfo {author} {\bibfnamefont
-  {W.}~\bibnamefont {Del~Pozzo}}, \bibinfo {author} {\bibfnamefont
-  {F.}~\bibnamefont {Feroz}}, \bibinfo {author} {\bibfnamefont
-  {J.}~\bibnamefont {Gair}}, \bibinfo {author} {\bibfnamefont {C.-J.}\
-  \bibnamefont {Haster}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
-  {Kalogera}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Littenberg}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mandel}},
-  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {O'Shaughnessy}}, \bibinfo
-  {author} {\bibfnamefont {M.}~\bibnamefont {Pitkin}}, \bibinfo {author}
-  {\bibfnamefont {C.}~\bibnamefont {Rodriguez}}, \bibinfo {author}
-  {\bibfnamefont {C.}~\bibnamefont {R\"over}}, \bibinfo {author} {\bibfnamefont
-  {T.}~\bibnamefont {Sidery}}, \bibinfo {author} {\bibfnamefont
-  {R.}~\bibnamefont {Smith}}, \bibinfo {author} {\bibfnamefont
-  {M.}~\bibnamefont {Van Der~Sluys}}, \bibinfo {author} {\bibfnamefont
-  {A.}~\bibnamefont {Vecchio}}, \bibinfo {author} {\bibfnamefont
-  {W.}~\bibnamefont {Vousden}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {L.}~\bibnamefont {Wade}},\ }\href {\doibase 10.1103/PhysRevD.91.042003}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
-  {volume} {91}},\ \bibinfo {pages} {042003} (\bibinfo {year}
-  {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Skilling}(2006)}]{Skilling:2006}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
