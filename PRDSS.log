@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.6)  14 AUG 2018 16:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.6)  20 AUG 2018 18:21
 entering extended mode
 **PRDSS.tex
 (C:\Users\pmat747\Documents\PostDoc\Manuscripts\steppingstone\PRDSS.tex
@@ -690,59 +690,79 @@ File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
 Package: ulem 2012/05/18
 \ULdepth=\dimen172
 )
-Class revtex4-1 Info: Patching array package. on input line 25.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen173
+\lightrulewidth=\dimen174
+\cmidrulewidth=\dimen175
+\belowrulesep=\dimen176
+\belowbottomsep=\dimen177
+\aboverulesep=\dimen178
+\abovetopsep=\dimen179
+\cmidrulesep=\dimen180
+\cmidrulekern=\dimen181
+\defaultaddspace=\dimen182
+\@cmidla=\count142
+\@cmidlb=\count143
+\@aboverulesep=\dimen183
+\@belowrulesep=\dimen184
+\@thisruleclass=\count144
+\@lastruleclass=\count145
+\@thisrulewidth=\dimen185
+)
+Class revtex4-1 Info: Patching array package. on input line 26.
 
 
 Class revtex4-1 Warning: Repair the float package.
 
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 25.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 26.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 25.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 25.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 25.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 26.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 26.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 26.
 (C:\Users\pmat747\Documents\PostDoc\Manuscripts\steppingstone\PRDSS.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count142
-\scratchdimen=\dimen173
+\scratchcounter=\count146
+\scratchdimen=\dimen186
 \scratchbox=\box57
-\nofMPsegments=\count143
-\nofMParguments=\count144
+\nofMPsegments=\count147
+\nofMParguments=\count148
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count145
-\MPscratchDim=\dimen174
-\MPnumerator=\count146
-\makeMPintoPDFobject=\count147
+\MPscratchCnt=\count149
+\MPscratchDim=\dimen187
+\MPnumerator=\count150
+\makeMPintoPDFobject=\count151
 \everyMPtoPDFconversion=\toks37
 )
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 26.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count148
+\c@section@level=\count152
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (C:\Users\pmat747\Documents\PostDoc\Manuscripts\steppingstone\PRDSS.out)
 (C:\Users\pmat747\Documents\PostDoc\Manuscripts\steppingstone\PRDSS.out)
@@ -752,92 +772,92 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 25.
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 26.
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 2020) in paragraph at lines 100--102
+Underfull \hbox (badness 2020) in paragraph at lines 101--103
 \OT1/cmr/m/n/10 where $\OML/cmm/b/it/10  \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 $
  de-notes the pa-ram-e-ter vec-tor, $\OML/cmm/b/it/10 X$
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 123--125
+Underfull \hbox (badness 1163) in paragraph at lines 124--126
 \OT1/cmr/m/n/10 for $0 \OMS/cmsy/m/n/10  \OML/cmm/m/it/10  \OMS/cmsy/m/n/10 
  \OT1/cmr/m/n/10 1$, the in-verse tem-per-a-ture, where
  []
 
 [2]
-Overfull \hbox (6.38747pt too wide) detected at line 156
+Overfull \hbox (6.38747pt too wide) detected at line 157
 [] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) = [] [] = [][] \OML/c
 mm/m/it/10 E[] [] []:
  []
 
 
-Overfull \hbox (1.52428pt too wide) in paragraph at lines 178--178
+Overfull \hbox (1.52428pt too wide) in paragraph at lines 179--179
 [] 
  []
 
 
-Overfull \hbox (6.98079pt too wide) in paragraph at lines 201--201
+Overfull \hbox (6.98079pt too wide) in paragraph at lines 202--202
 [] 
  []
 
 [3] [4]
-Underfull \hbox (badness 3148) in paragraph at lines 270--271
+Underfull \hbox (badness 3148) in paragraph at lines 271--272
 []\OT1/cmr/m/n/10 The model is parametrized by a vec-tor $\OML/cmm/b/it/10 x \O
 T1/cmr/m/n/10 =$
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 276.
+               Default added (so using `tbp') on input line 277.
 
 <figures/toyExBetaTemp.pdf, id=203, 505.89pt x 505.89pt>
 File: figures/toyExBetaTemp.pdf Graphic file (type pdf)
 
 <use figures/toyExBetaTemp.pdf>
-Package pdftex.def Info: figures/toyExBetaTemp.pdf used on input line 279.
+Package pdftex.def Info: figures/toyExBetaTemp.pdf used on input line 280.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 <figures/toyExUnifTemp.pdf, id=205, 505.89pt x 505.89pt>
 File: figures/toyExUnifTemp.pdf Graphic file (type pdf)
 
 <use figures/toyExUnifTemp.pdf>
-Package pdftex.def Info: figures/toyExUnifTemp.pdf used on input line 285.
+Package pdftex.def Info: figures/toyExUnifTemp.pdf used on input line 286.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 277--289
+Overfull \hbox (9.0pt too wide) in paragraph at lines 278--290
  []$[]$ 
  []
 
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 277--289
+Overfull \hbox (9.0pt too wide) in paragraph at lines 278--290
  $[]$ 
  []
 
 [5]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 305.
+ on input line 306.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 306.
+               Default added (so using `tbp') on input line 307.
 
 <figures/ErrorEstimates_DepMC.pdf, id=218, 505.89pt x 505.89pt>
 File: figures/ErrorEstimates_DepMC.pdf Graphic file (type pdf)
 
 <use figures/ErrorEstimates_DepMC.pdf>
-Package pdftex.def Info: figures/ErrorEstimates_DepMC.pdf used on input line 30
-9.
+Package pdftex.def Info: figures/ErrorEstimates_DepMC.pdf used on input line 31
+0.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
 <figures/ErrorEstimates_IndMC.pdf, id=220, 505.89pt x 505.89pt>
@@ -845,15 +865,15 @@ File: figures/ErrorEstimates_IndMC.pdf Graphic file (type pdf)
 
 <use figures/ErrorEstimates_IndMC.pdf>
 Package pdftex.def Info: figures/ErrorEstimates_IndMC.pdf used on input line 31
-5.
+6.
 (pdftex.def)             Requested size: 227.64839pt x 227.64839pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 307--319
+Overfull \hbox (9.0pt too wide) in paragraph at lines 308--320
  []$[]$ 
  []
 
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 307--319
+Overfull \hbox (9.0pt too wide) in paragraph at lines 308--320
  $[]$ 
  []
 
@@ -874,22 +894,17 @@ Underfull \hbox (badness 1406) in paragraph at lines 298--303
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 399--403
- []\OT1/cmr/m/n/9 P. Mat-u-rana R., B. J. Brewer, S. Klaere,  and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--416
+Underfull \hbox (badness 10000) in paragraph at lines 405--415
  []\OT1/cmr/m/n/9 P. Mat-u-rana Rus-sel, in
  []
 
 
-Overfull \hbox (98.25383pt too wide) in paragraph at lines 406--416
+Overfull \hbox (98.25383pt too wide) in paragraph at lines 405--415
  |   []\OT1/cmr/m/n/9 ,
  []
 
 
-Overfull \hbox (78.80608pt too wide) in paragraph at lines 464--468
+Overfull \hbox (78.80608pt too wide) in paragraph at lines 463--467
  []\OT1/cmr/m/n/9 P. Mat-u-rana R., |   [],
  []
 
@@ -899,18 +914,18 @@ Class revtex4-1 Warning: Environment acknowledgements is obsolete;
 Use acknowledgments instead.
 
 [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
  (C:\Users\pmat747\Documents\PostDoc\Manuscripts\steppingstone\PRDSS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 377.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
 Package rerunfilecheck Info: File `PRDSS.out' has not changed.
-(rerunfilecheck)             Checksum: 94279F7C3F0C160141EE81A5D705AF8E;1095.
+(rerunfilecheck)             Checksum: C2AFDA8DFC8618357AD92757F7BE8A64;1095.
  ) 
 Here is how much of TeX's memory you used:
- 18231 strings out of 493921
- 321138 string characters out of 3144871
- 455446 words of memory out of 3000000
- 21137 multiletter control sequences out of 15000+200000
+ 18288 strings out of 493921
+ 321918 string characters out of 3144871
+ 455250 words of memory out of 3000000
+ 21189 multiletter control sequences out of 15000+200000
  15050 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,11n,55p,1414b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -934,9 +949,9 @@ e1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmti9.pfb>
-Output written on PRDSS.pdf (8 pages, 356182 bytes).
+Output written on PRDSS.pdf (8 pages, 357732 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
+ 423 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

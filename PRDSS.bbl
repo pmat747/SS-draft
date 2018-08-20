@@ -388,18 +388,17 @@
   {journal} {Digital Signal Processing: A Review Journal}\ }\textbf {\bibinfo
   {volume} {70}},\ \bibinfo {pages} {84} (\bibinfo {year} {2017})},\ \bibinfo
   {note} {cited By 1}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Maturana~R.}\ \emph {et~al.}(2017)\citenamefont
-  {Maturana~R.}, \citenamefont {Brewer}, \citenamefont {Klaere},\ and\
+\bibitem [{\citenamefont {Maturana~Russel}\ \emph {et~al.}(2018)\citenamefont
+  {Maturana~Russel}, \citenamefont {Brewer}, \citenamefont {Klaere},\ and\
   \citenamefont {Bouckaert}}]{Maturana:2017b}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Maturana~R.}}, \bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
+  {Maturana~Russel}}, \bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
   {Brewer}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Klaere}}, \
-  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Bouckaert}},\
-  }\href@noop {} {\enquote {\bibinfo {title} {{Model selection and parameter
-  inference in phylogenetics using Nested Sampling}},}\ }\bibinfo
-  {howpublished} {ArXiv preprint arXiv:1703.05471v2} (\bibinfo {year}
-  {2017})\BibitemShut {NoStop}%
+  and\ \bibinfo {author} {\bibfnamefont {R.~R.}\ \bibnamefont {Bouckaert}},\
+  }\href {\doibase 10.1093/sysbio/syy050} {\bibfield  {journal} {\bibinfo
+  {journal} {Syst. Biol.}\ ,\ \bibinfo {pages} {syy050}} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Maturana~Russel}(2018)}]{Maturana:2018}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
