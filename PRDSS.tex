@@ -332,10 +332,12 @@ We have also performed the analysis in the ideal case that the samples in the Ma
 We apply the SS algorithm to an example analysis of a simulated binary black hole
 coalescence signal in the Advanced LIGO~\cite{0264-9381-32-7-074001} and Advanced Virgo~\cite{0264-9381-32-2-024001}
 gravitational wave detectors, operating at design sensitivity.
-
-The data contained 4\s of simulated Gaussian noise, generated using the design
+The data contained 4\,s of simulated Gaussian noise, generated using the design
 sensitivity curves of two Advanced LIGO detectors (Hanford, Livingston) and the Advanced Virgo detector,
-plus the GW signal. The signal, starting from XX\,Hz 
+plus the GW signal. The simulated black hole binary had component masses 25\,\Msun and 13\,\Msun,
+with no black hole spin, and lay at a luminosity distance of 614\,Mpc, with a combined signal-to-noise ratio of 17.9 in the
+three-detector network. The analysis was performed in the frequency range $40--512$\,Hz using the IMRPhenomPv2
+waveform approximant~\cite{}, with black holes spins set to zero. 
 
 {\cb John: Some description of the data etc
 
@@ -349,7 +351,7 @@ We estimate the marginal likelihood via NS, TI and SS.  For NS, we performed 32 
 \begin{table}
 	\caption{\label{tab:results} Estimates of evidence, bayes factor and their standard deviations from the NS, TI and SS methods.}
 	\begin{ruledtabular}
-		\begin{tabular}{ccc}
+		\begin{tabular}{cccc}
 		Method & $\log z$ & $\log B$ & SD \\		
 		NS & -5756.10 & 78.19 & 0.40 \\
 		TI & -5756.85 & 77.43 & 0.16 \\
