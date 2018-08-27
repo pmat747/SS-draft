@@ -354,9 +354,9 @@ We estimate the marginal likelihood via NS, TI and SS.  For NS, we performed 32 
 	\begin{ruledtabular}
 		\begin{tabular}{cccc}
 		Method & $\log z$ & SD& $\log B$  \\		
-		NS & -5756.10 & 0.40  & 78.19 \\
-		TI & -5756.85 & 0.16 & 77.43  \\
-		SS & -5755.95& 0.11 & 78.33 \\
+		NS & -5731.06 & 0.72  & 103.22    \\
+		TI & -5756.85 & 0.16  & 77.43     \\
+		SS & -5755.95 & 0.11  & 78.33     \\
 		\end{tabular}
 	\end{ruledtabular}
 \end{table}
@@ -370,7 +370,7 @@ We estimate the marginal likelihood via NS, TI and SS.  For NS, we performed 32 
 
 
 
-NS and SS estimates are closer to each other.  Their absolute difference is 0.14, which represents 0.35 or 1.2 NS and SS standard deviations, respectively.  TI estimate is 0.76 NS standard deviations away from NS estimate, but 4.75 in terms of its standard deviation.  This difference increases when is compared to SS estimate.  Their absolute difference is 0.76, which is 4.75 or 6.91 TI and SS standard deviations, respectively. 
+\jv{TODO: Update this para with new numbers} NS and SS estimates are closer to each other.  Their absolute difference is 0.14, which represents 0.35 or 1.2 NS and SS standard deviations, respectively.  TI estimate is 0.76 NS standard deviations away from NS estimate, but 4.75 in terms of its standard deviation.  This difference increases when is compared to SS estimate.  Their absolute difference is 0.76, which is 4.75 or 6.91 TI and SS standard deviations, respectively. 
 
 \section{Discussion}
 SS is a method to estimate the marginal likelihood which has great popularity in phylogenetics where has shown to work well.  It requires slightly less computational cost than TI to yield a less biased estimator.  For our simple Gaussian model, we have shown that it is less sensitive to the disposal of the $\beta$ values and the number of power posterior distributions.  To the best of our knowledge, it has not been applied into gravitational wave models yet.  Its implementation in this context should be straightforward since its main complexity lies with sampling from the power posterior, like TI.  However, this can be done by using the parallel tempering method, which has been widely implemented in software packages in the gravitational wave context. 
