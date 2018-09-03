@@ -350,14 +350,14 @@ Could/should we also calculate the marginal likelihood here for the same data bu
 
 Include a comparison of TI and SS to the nested sampling estimate}
 
-We estimate the marginal likelihood via NS, TI and SS.  For NS, we performed 32 runs with 512 live points each.  For TI and SS, we considered 31 temperatures with 4900 samples from each.  For their standard error, we applied the MBB method for different block lengths and took the one that yields the maximum standard deviation, as a conservative way of estimation. The results are displayed in Table~\ref{tab:results} and Figure~\ref{fig3}.
+We estimate the marginal likelihood via NS, TI and SS.  For NS, we performed 32 runs with 2000 live points each.  For TI and SS, we considered 31 temperatures with 4900 samples from each.  For their standard error, we applied the MBB method for different block lengths and took the one that yields the maximum standard deviation, as a conservative way of estimation. The results are displayed in Table~\ref{tab:results} and Figure~\ref{fig3}.
 
 \begin{table}
 	\caption{\label{tab:results} Estimates of evidence, bayes factor and their standard deviations from the NS, TI and SS methods.}
 	\begin{ruledtabular}
 		\begin{tabular}{cccc}
 		Method & $\log z$ & SD& $\log B$  \\		
-		NS & -5731.06 & 0.72  & 103.22    \\
+		NS & -5730.82 & 0.36  & 103.33    \\
 		TI & -5756.85 & 0.16  & 77.43     \\
 		SS & -5755.95 & 0.11  & 78.33     \\
 		\end{tabular}
