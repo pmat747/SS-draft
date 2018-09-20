@@ -57,7 +57,7 @@ Recent dramatic observations with, for example, the cosmic microwave background 
 
 The importance of accurate parameter estimation calculations was dramatically displayed with the observations of gravitational waves and gamma rays from the binary neutron star merger GW170817 and GRB 170817A~\cite{PhysRevLett.119.161101,2041-8205-848-2-L14}. Using the data from the two Advanced LIGO detectors~\cite{0264-9381-32-7-074001} and the Advanced Virgo detector~\cite{0264-9381-32-2-024001} an initial sky-map and distance estimates from the gravitational wave data was released five hours after the merger~\cite{2041-8205-848-2-L12} using a specially designed method for sky position estimation~\cite{PhysRevD.93.024013}. A little over 11 hours after the gravitational wave - gamma ray event refined estimates were released based on the first comprehensive parameter estimation~\cite{Veitch:2015}, giving a more accurate estimated of the sky position and distance to the source~\cite{2041-8205-848-2-L12}. The parameter estimation calculations allowed astronomers to identify the source, providing for electromagnetic observations that yielded a plethora of astrophysical information, including the observation of a kilonova~\cite{2041-8205-848-2-L12}. The necessity to make parameter estimation estimates will continue as gravitational wave data is used for multimessenger astronomy.
 
-Also of critical importance is the ability to conduct model comparison and parameter estimation studies with the gravitational wave signals. For example, Bayesian parameter estimation methods were used to decipher the physical characteristics of the observed gravitational wave events, such as the first observed binary black hole merger GW150914~\cite{PhysRevLett.116.061102,PhysRevLett.116.241102,PhysRevX.6.041014}, and the binary neutron star merger GW170817~\cite{PhysRevLett.119.161101,Abbott:2018wiz}. Similarly, model comparisons have been conducted in a number of ways using the data from the detected gravitational waves signals. This includes tests of general relativity~\cite{PhysRevLett.116.221101}, neutron star equation of state studies~\cite{PhysRevLett.119.161101,Abbott:2018exr}, constraining tidal instabilities in binary neutron star mergers~\cite{Weinberg:2018icl}, and the search for a stochastic gravitational wave background from binary black hole mergers over the history of the universe~\cite{PhysRevX.8.021019}. When Advanced LIGO and Advanced Virgo made the first observation of a binary black merger using the data from three detectors it provided an opportunity to conduct a model comparison test as to whether the polarization of the gravitational waves was consistent with general relativity, or other theories of gravity; general relativity succeeded in this important model comparison~\cite{PhysRevLett.119.141101}. Advanced LIGO data was also used to search for a stochastic gravitational wave background as described by general relativity or alternative theories of gravity, and model comparison was integral to this study~\cite{PhysRevX.7.041058,PhysRevLett.120.201102}. Methods that would improve the calculation of the evidence, the marginal likelihood of a model, would be well-received in the gravitational wave community, and would certainly be of use in other areas of astrophysics and cosmology~\cite{doi:10.1146/annurev-astro-082214-122339}. Equally important is an accurate estimation of the associated standard error. Here we introduce the MBB that accounts for the autocorrelation between the samples, and provides a more accurate estimate than the standard bootstrap method.
+Also of critical importance is the ability to conduct model comparison and parameter estimation studies with the gravitational wave signals. For example, Bayesian parameter estimation methods were used to decipher the physical characteristics of the observed gravitational wave events, such as the first observed binary black hole merger GW150914~\cite{PhysRevLett.116.061102,PhysRevLett.116.241102,PhysRevX.6.041014,O1BBH}, and the binary neutron star merger GW170817~\cite{PhysRevLett.119.161101,Abbott:2018wiz}. Similarly, model comparisons have been conducted in a number of ways using the data from the detected gravitational waves signals. This includes tests of general relativity~\cite{PhysRevLett.116.221101}, neutron star equation of state studies~\cite{PhysRevLett.119.161101,Abbott:2018exr}, constraining tidal instabilities in binary neutron star mergers~\cite{Weinberg:2018icl}, and the search for a stochastic gravitational wave background from binary black hole mergers over the history of the universe~\cite{PhysRevX.8.021019}. When Advanced LIGO and Advanced Virgo made the first observation of a binary black merger using the data from three detectors it provided an opportunity to conduct a model comparison test as to whether the polarization of the gravitational waves was consistent with general relativity, or other theories of gravity; general relativity succeeded in this important model comparison~\cite{PhysRevLett.119.141101}. Advanced LIGO data was also used to search for a stochastic gravitational wave background as described by general relativity or alternative theories of gravity, and model comparison was integral to this study~\cite{PhysRevX.7.041058,PhysRevLett.120.201102}. Methods that would improve the calculation of the evidence, the marginal likelihood of a model, would be well-received in the gravitational wave community, and would certainly be of use in other areas of astrophysics and cosmology~\cite{doi:10.1146/annurev-astro-082214-122339}. Equally important is an accurate estimation of the associated standard error. Here we introduce the MBB that accounts for the autocorrelation between the samples, and provides a more accurate estimate than the standard bootstrap method.
 
 %\jv{The above focuses on rapid parameter estimation whereas the SS method is aimed at calculating evidence. We might instead write a motivating paragraph based on the requirement of having good evidence estimates for doing model selection, especially with multiple sources. We can refer to the population studies into neutron star equation of state, tests of GR, and the stochastic CBC search.}
 
@@ -345,34 +345,42 @@ We have also performed the analysis in the ideal case that the samples in the Ma
 
 \section{Application with Simulated LIGO-Virgo Data} \label{sec:LIGO}
 We apply the SS algorithm to an example analysis of a simulated binary black hole
-coalescence signal in the Advanced LIGO~\cite{0264-9381-32-7-074001} and Advanced Virgo~\cite{0264-9381-32-2-024001}
+coalescence signal in the Advanced LIGO~\cite{0264-9381-32-7-074001} and Advanced
+Virgo~\cite{0264-9381-32-2-024001}
 gravitational wave detectors, operating at design sensitivity.
 The data contained 4\,s of simulated Gaussian noise, generated using the design
 sensitivity curves of two Advanced LIGO detectors (Hanford, Livingston) and the Advanced Virgo detector,
-plus the GW signal. The simulated black hole binary had component masses 25\,\Msun and 13\,\Msun,
-with no black hole spin, and lay at a luminosity distance of 614\,Mpc, with a combined signal-to-noise ratio of 17.9 in the
-three-detector network. The analysis was performed in the frequency range $40--512$\,Hz using the IMRPhenomPv2
-waveform approximant~\cite{}, with black holes spins set to zero. 
+plus the GW signal. The simulated black hole binary had component masses
+25\,\Msun and 13\,\Msun, and lay at a luminosity distance of 614\,Mpc, with a
+combined signal-to-noise ratio of 17.9 in the three-detector network.
+The analysis was performed in the frequency range 40--512\,Hz using the IMRPhenomPv2
+waveform approximant~\cite{Hannam:2013oca}. The system's total angular momentum
+was inclined at 95$^\circ$ to the line-of-sight to the binary, and the primary
+and secondary black holes had dimensionless spin magnitudes of 0.67 and 0.12,
+tilted at $45^\circ$ and $90^\circ$ to the orbital angular momentum. This
+configuration produces a precession of the orbital plane which results in a
+waveform that is not well approximated by a non-spinning signal. The analysis
+was performed using the 15-dimensional parameterised model for a quasi-circular
+black hole binary commonly used in LIGO-Virgo analyses (e.g.~\cite{PhysRevLett.116.241102,
+O1BBH}), implemented in the LALInference package~\cite{Veitch:2015}.
 
-{\cb John: Some description of the data etc
-
-
-Could/should we also calculate the marginal likelihood here for the same data but for a model without signal present and calculate the BF and compare?
-
-Include a comparison of TI and SS to the nested sampling estimate}
-
-We estimate the marginal likelihood via NS, TI and SS.  For NS, we performed 32 runs with 2000 live points each.  For TI and SS, we considered 31 temperatures with 4700 samples from each, generated via LALInference.  From these simulations, we performed these methods for $K=7, 11, 16$, and $31$.  For their standard error, we applied the MBB method for different block lengths and took the one that yields the maximum standard deviation, as a conservative way of estimation. The results are displayed in Table~\ref{tab:results}.
+We estimate the marginal likelihood via NS, TI and SS.  For NS, we performed 32
+runs with 2000 live points each. For TI and SS, we considered 31 temperatures
+with 4700 samples from each.  From these simulations, we performed these methods
+for $K=7, 11, 16$, and $31$.  For their standard error, we applied the MBB method
+for different block lengths and took the one that yields the maximum standard
+deviation, as a conservative way of estimation. The results are displayed in Table~\ref{tab:results}.
 
 \begin{table}
 	\caption{\label{tab:results} Estimates of evidence and their standard deviation, and the Bayes factor from the NS, TI and SS methods for different number of temperatures $K$.}
 	\begin{ruledtabular}
 		\begin{tabular}{ccccc}
-			Method & $K$ & $\log z$ & SD& $\log B$  \\		
-			NS & - &-5730.82 & 0.36  & 103.33    \\
+			Method & $K$ & $\log z$ & SD& $\log B$  \\ \hline
+			NS & - &-5730.82 & 0.36  & 103.33    \\ \hline
 			TI   & 7 &-5732.79 &  0.40 & 101.36     \\
 			      & 11 &-5732.23 & 0.32 &101.92\\
 			      & 16 &-5731.80 & 0.32 &102.35\\
-			      & 31 &-5731.52 & 0.27 &102.63\\
+			      & 31 &-5731.52 & 0.27 &102.63\\ \hline
 			SS & 7   &-5729.48 & 0.32 & 104.67  \\
 			      & 11  &-5730.14 & 0.14 &104.01\\
 			      & 16 &-5730.10 & 0.13 &104.05\\
@@ -393,6 +401,8 @@ We estimate the marginal likelihood via NS, TI and SS.  For NS, we performed 32 
 %\jv{TODO: Update this para with new numbers} NS and SS estimates are closer to each other.  Their absolute difference is 0.14, which represents 0.35 or 1.2 NS and SS standard deviations, respectively.  TI estimate is 0.76 NS standard deviations away from NS estimate, but 4.75 in terms of its standard deviation.  This difference increases when is compared to SS estimate.  Their absolute difference is 0.76, which is 4.75 or 6.91 TI and SS standard deviations, respectively. 
 
 In terms of NS standard deviation, NS and SS evidence estimates are closer to each other for the different number of temperatures.   Their differences are 3.72, 1.89, 2.00 and 1.86 NS standard deviations for $K$ =  7, 11, 16 and 31, respectively.  On the other hand, the difference between TI and NS evidence estimates are 5.47, 3.92, 2.72 and 1.94 NS standard deviations for the different temperatures, respectively.  Consequently, SS and NS Bayes factor estimates are more similar.
+
+
 
 \section{Discussion}
 SS is a method to estimate the marginal likelihood which has great popularity in phylogenetics where has shown to work well.  It requires slightly less computational cost than TI to yield a less biased estimator.  For our simple Gaussian model, we have shown that it is less sensitive to the disposal of the $\beta$ values and the number of power posterior distributions.  To the best of our knowledge, it has not been applied into gravitational wave models yet.  Its implementation in this context should be straightforward since its main complexity lies with sampling from the power posterior, like TI.  However, this can be done by using the parallel tempering method, which has been widely implemented in software packages in the gravitational wave context. 
