@@ -82,15 +82,17 @@ Presented in this paper is a method that provides an improvement for the calcula
 
 %Nested sampling\cite{skilling:2006}%
 
-{\cb
-general review of evidence estimates that are used in the gravitational wave  literature\bigskip
+%{\cb general review of evidence estimates that are used in the gravitational wave  literature\bigskip
 
-- \textit{Discuss: importance of ``z"  
-- how the uncertainty is estimated in power posterior methods}}
+%- \textit{Discuss: importance of ``z"  
+%- how the uncertainty is estimated in power posterior methods}}
 
 %RJMCMC Green \cite{green:1995}
 
-The paper is structured as follows: Section II \ldots.
+The paper is structured as follows. In Section II we review nested sampling, thermodynamic integration and introduce the Stepping-stone algorithm for computing the evidence of Bayesian model selection. In Section III
+
+
+
 
 
 
@@ -244,7 +246,7 @@ where $H$ is the negative entropy.  Alternatively, for a fixed sequence of likel
 \bigskip
 
 
-\section{Estimation of the MC Standard Error of the Evidence}
+\section{Estimation of the Monte Carlo Standard Error of the Evidence}
 The point estimate of the evidence  is not sufficient if we want to compare the  performance of different types of evidence estimates.   We
 need  to have a measure of the Monte Carlo standard error of the evidence estimates.  In the NS case, the algorithm provides direct ways of calculating its standard error from  a single run as given in (\ref{eq:SDNS}).  However, power posterior methods lack a reliable direct way of calculating the standard error of the evidence.  In \cite{Lartillot:Philippe:2006} and \cite{Xie:Lewis:Fan:Kuo:Chen:2011}, the authors proposed estimates which rely on the  independence of the samples in the Markov chains at different temperatures, an assumption that is not met  in general.  Practitioners opt for the standard procedure of repeating the analysis multiple times and then calculating the standard error.  This brute force technique can be very costly and is in some cases computationally not viable.  Alternatively, some estimate the error internally in a single run, that is by re-sampling independently the Markov chains in order to generate multiple evidence estimates.  However, this approach does not consider the potential autocorrelation in the samples, leading to wrong estimates.  Here, we propose the use of a block bootstrap method for multivariate time series, which accounts for  the autocorrelation between the samples within a Markov chain at a fixed
 temperature and the cross-correlation between parallel chains at different temperatures.
