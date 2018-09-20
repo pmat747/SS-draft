@@ -89,10 +89,7 @@ Presented in this paper is a method that provides an improvement for the calcula
 
 %RJMCMC Green \cite{green:1995}
 
-The paper is structured as follows. In Section II we review nested sampling, thermodynamic integration and introduce the Stepping-stone algorithm for computing the evidence of Bayesian model selection. In Section III
-
-
-
+The paper is structured as follows. In Section II we review nested sampling, thermodynamic integration and introduce the Stepping-stone algorithm for computing the evidence of Bayesian model selection. In Section III we introduce the moving block bootstrap for calculating the Monte Carlo standard error of the evidence estimates. In Section IV we show the improved performance of the Stepping-stone algorithm over thermodynamic integration. In Section V we apply the different algorithms to simulated LIGO-Virgo gravitaitonal wave data and display the benefits of the Stepping-algorithm and the moving black bootstrap for standard error estimation. A summary discussion is given in Section VI.
 
 
 
@@ -334,7 +331,7 @@ We have also performed the analysis in the ideal case that the samples in the Ma
 %{\cb For independent samples, we have no autocorrelation, just cross-correlation between chains due to the swaps. I would guess that for that case, $\ell=1$ would work fine as long as we are resampling the same blocks in the parallel chains. I think we should explain that in the text in Section III as well.}
 
 
-\section{Application to LIGO Data} \label{sec:LIGO}
+\section{Application with Simulated LIGO-Virgo Data} \label{sec:LIGO}
 We apply the SS algorithm to an example analysis of a simulated binary black hole
 coalescence signal in the Advanced LIGO~\cite{0264-9381-32-7-074001} and Advanced Virgo~\cite{0264-9381-32-2-024001}
 gravitational wave detectors, operating at design sensitivity.
