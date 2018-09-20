@@ -330,6 +330,18 @@ We have also performed the analysis in the ideal case that the samples in the Ma
 
 %{\cb For independent samples, we have no autocorrelation, just cross-correlation between chains due to the swaps. I would guess that for that case, $\ell=1$ would work fine as long as we are resampling the same blocks in the parallel chains. I think we should explain that in the text in Section III as well.}
 
+\begin{table}
+	\caption{\label{tab:NSresults} Nested sampling analysis based in 100 independent runs for different levels of correlation in the samples.  ``N" stands for the number of live points, ``Steps" the number of MCMC steps used to generate the points at each iteration, ``tSE" the mean of the theoretical standard error defined in \eqref{eq:SDNS}, ``SDtSE" the standard deviation of the theoretical standard error estimates, ``eSD" is the standard deviation of the independent marginal likelihood estimates, ``Diff" the difference between the true value and the mean of the marginal likelihood estimates.}
+	\begin{ruledtabular}
+		\begin{tabular}{cccccc}
+			N & Steps & tSE & SDtSE & eSD & Diff \\
+			10&10&1.9922&0.0921&3.6244&4.7724\\
+			10&100&1.8918&0.0562&2.3078&-0.3310\\
+			10&1000&1.8959&0.0542&2.1083&-0.1580\\
+			10&5000&1.8939&0.0562&2.3454&-0.3233\\
+		\end{tabular}
+	\end{ruledtabular}
+\end{table}
 
 \section{Application with Simulated LIGO-Virgo Data} \label{sec:LIGO}
 We apply the SS algorithm to an example analysis of a simulated binary black hole
@@ -370,12 +382,12 @@ We estimate the marginal likelihood via NS, TI and SS.  For NS, we performed 32 
 \end{table}
 
 
-%\begin{figure}[]
-%	\centering 
-%	\includegraphics[scale=0.45,clip=true,angle=0]{ligo_data_results.pdf}
-%	\caption{Evidence estimates $\pm$ 2 standard deviations.}
-%	\label{fig3}
-%\end{figure}
+\begin{figure}[]
+	\centering 
+	\includegraphics[scale=0.45,clip=true,angle=0]{ligo_data_results.pdf}
+	\caption{Evidence estimates $\pm$ 2 standard deviations.  Subscripts in TI and SS stand for the number of temperatures.}
+	\label{fig3}
+\end{figure}
 
 
 %\jv{TODO: Update this para with new numbers} NS and SS estimates are closer to each other.  Their absolute difference is 0.14, which represents 0.35 or 1.2 NS and SS standard deviations, respectively.  TI estimate is 0.76 NS standard deviations away from NS estimate, but 4.75 in terms of its standard deviation.  This difference increases when is compared to SS estimate.  Their absolute difference is 0.76, which is 4.75 or 6.91 TI and SS standard deviations, respectively. 
