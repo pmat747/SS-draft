@@ -205,7 +205,7 @@ Although $\widehat{z}$ is unbiased, the log transformation introduces a bias whi
 
 The performance of this method depends naturally on its specifications such as the number of transitional distributions and number of samples from each of them ($K$ and $n$, respectively).  The dispersal of the $\beta$ values has also a strong influence, even more so in TI (see \cite{Xie:Lewis:Fan:Kuo:Chen:2011} and our simulation study below).  Along these lines, \cite{Xie:Lewis:Fan:Kuo:Chen:2011} proposed to spread the $\beta$ values according to the evenly spaced quantiles of a Beta(0.3, 1) distribution.  This distribution is right skewed, thereby putting half of the $\beta$ values below 0.1 where most of the variability  is found.    
 
-SS is closely related to annealed importance sampling \citep[][]{Neal:2001}.  The latter utilizes the same product of ratios, but instead of estimating each ratio separately, it estimates the entire product via importance sampling, that is the whole telescope product is evaluated multiple times and then the these values are averaged \citep{Maturana:2017}.  For the particular case of $K = 2$, that is considering only the prior, both methods reduce to the arithmetic mean, and for $n =1$, they are equivalent.   
+SS is closely related to annealed importance sampling \citep[][]{Neal:2001}.  The latter utilizes the same product of ratios, but instead of estimating each ratio separately, it estimates the entire product via importance sampling, that is the whole telescope product is evaluated multiple times and then these values are averaged \citep{Maturana:2017}.  For the particular case of $K = 2$, that is considering only the prior, both methods reduce to the arithmetic mean, and for $n =1$, they are equivalent.   
 
 
 \subsection{Nested Sampling}
@@ -273,7 +273,7 @@ The model is parametrized by a vector $\bm{x} = (x_1,x_2, \dots, x_d)$ of dimens
 \begin{align*}
 L(\bm{x}) = \prod_{i=1}^{d} e^{- \frac{x_i^2}{2v}},
 \end{align*}
-where $v$ is a parameter.  Doing some calculations, it is easy to see that the posterior distribution is given by a product of independent $\text{N}(0, v/(1+v))$ distributions, and therefore, its marginal likelihood has an analytical solution, which is $z = (v/(1+v))^{d/2}$.  The power posterior or transitional distributions are given by a product of independent  $\text{N}(0,v/(v+\beta))$ distributions.  All the involved distributions are Gaussians, so the sampling required to calculate TI and SS is straightforward.  However, we use the Metropolis algorithm to sample these densities and thus allow a certain degree of autocorrelation in the samples, making the analysis more realistic in an evidence estimation context.  The Markov chains have a lag of around 18 on average.  In addition, we consider independent samples to asses MBB performance in the context of error estimation.  
+where $v$ is a parameter.  Doing some calculations, it is easy to see that the posterior distribution is given by a product of independent $\text{N}(0, v/(1+v))$ distributions, and therefore, its marginal likelihood has an analytical solution, which is $z = (v/(1+v))^{d/2}$.  The power posterior or transitional distributions are given by a product of independent  $\text{N}(0,v/(v+\beta))$ distributions.  All the involved distributions are Gaussians, so the sampling required to calculate TI and SS is straightforward.  However, we use the Metropolis algorithm to sample these densities and thus allow a certain degree of autocorrelation in the samples, making the analysis more realistic in an evidence estimation context.  The Markov chains have a lag of around 18 on average.  In addition, we consider independent samples to assess MBB performance in the context of error estimation.  
 
 \begin{figure}[]
 	\begin{subfigure}{0.50\textwidth}
@@ -377,7 +377,7 @@ for different block lengths and took the one that yielded the maximum standard
 deviation  as a conservative way of estimation. The results are displayed in Table~\ref{tab:results} and visualized in Figure~\ref{fig3}.
 The evidence estimates of SS and NS are closer than of SS and TI. In the light of the performance of  TI in the simulation study, it seems that TI would have
 needed more temperatures to achieve an evidence estimate consistent with both SS and NS. The standard error of the NS evidence estimate is surprisingly large, especially
-given that it is usually an underestimate of the true uncertainty. {\cb John: the NS error estimate is based on the 32 runs, right? If so, we need to correct this sentence - PMR}
+given that it is usually an underestimate of the true uncertainty.  % {\cb John: the NS error estimate is based on the 32 runs, right? If so, we need to correct this sentence - PMR}
 
 \begin{table}
 	\caption{\label{tab:results} Evidence estimates and corresponding standard errors, and the Bayes factor from the NS, TI and SS methods for different number of temperatures $K$.}
