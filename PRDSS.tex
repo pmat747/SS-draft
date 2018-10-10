@@ -15,7 +15,7 @@
 \usetikzlibrary{shapes.geometric, arrows}
 \tikzstyle{sqr2} = [rectangle, minimum width=3.5cm, minimum height=0.9cm, text centered, draw=black, fill=yellow!30]
 
-\usepackage{ulem} % \sout function
+%\usepackage{ulem} % \sout function
 \usepackage{booktabs} % Top and bottom rules for tables
 
 \newcommand{\bt}[1]{\ensuremath{\mathbf{#1}}}  % bold math
@@ -234,7 +234,7 @@ where $u_i\sim\text{Beta}(N,1)$.  The geometric mean is the most common method t
 \xi_i = e^{-i/N}.
 \end{align*}
 
-The nature of NS algorithm also allows to estimate the standard deviation of the $\log z$ estimate in a single run as 
+The nature of NS algorithm also allows to estimate the standard error of the $\log z$ estimate in a single run as 
 \begin{equation}\label{eq:SDNS}
 \widehat{s.e.}_{\text{NS}}(\log z) = \sqrt{\dfrac{H}{N}},
 \end{equation}
@@ -370,14 +370,11 @@ black hole binary commonly used in LIGO-Virgo analyses (e.g.~\cite{PhysRevLett.1
 O1BBH}), implemented in the LALInference package~\cite{Veitch:2015}.
 
 We estimate the marginal likelihood via NS, TI and SS.  For NS, we performed 32
-runs with 2000 live points each. For TI and SS, we considered 31 temperatures
-with 4700 samples from each.  From these simulations, we ran TI and SS to estimate the evidence
-for $K=7, 11, 16$, and $31$.  To compute the standard error of the evidence estimates, we applied the MBB method
-for different block lengths and took the one that yielded the maximum standard
+runs with 2000 live points each. For TI and SS, we considered 31 temperatures, evenly spaced on a logarithmic scale, with 4700 samples from each.  From these simulations, we ran TI and SS to estimate the evidence for $K=7, 11, 16$, and $31$.  To compute the standard error of the evidence estimates, we applied the MBB method for different block lengths and took the one that yielded the maximum standard
 deviation  as a conservative way of estimation. The results are displayed in Table~\ref{tab:results} and visualized in Figure~\ref{fig3}.
 The evidence estimates of SS and NS are closer than of SS and TI. In the light of the performance of  TI in the simulation study, it seems that TI would have
-needed more temperatures to achieve an evidence estimate consistent with both SS and NS. The standard error of the NS evidence estimate is surprisingly large, especially
-given that it is usually an underestimate of the true uncertainty.  % {\cb John: the NS error estimate is based on the 32 runs, right? If so, we need to correct this sentence - PMR}
+needed more temperatures to achieve an evidence estimate consistent with both SS and NS. The standard error of the NS evidence estimate is quite large, especially
+given that it was calculated for a large number of live points.  % {\cb John: the NS error estimate is based on the 32 runs, right? If so, we need to correct this sentence - PMR}
 
 \begin{table}
 	\caption{\label{tab:results} Evidence estimates and corresponding standard errors, and the Bayes factor from the NS, TI and SS methods for different number of temperatures $K$.}
