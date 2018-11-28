@@ -147,14 +147,14 @@
   10.1103/PhysRevLett.116.241102} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo {pages}
   {241102} (\bibinfo {year} {2016}{\natexlab{b}})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Renate}\ and\ \citenamefont
-  {Nelson}()}]{doi:10.1111/j.1740-9713.2016.00896.x}%
+\bibitem [{\citenamefont {Meyer}\ and\ \citenamefont
+  {Christensen}()}]{doi:10.1111/j.1740-9713.2016.00896.x}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Renate}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Nelson}},\ }\href {\doibase 10.1111/j.1740-9713.2016.00896.x} {\bibfield
-  {journal} {\bibinfo  {journal} {Significance}\ }\textbf {\bibinfo {volume}
-  {13}},\ \bibinfo {pages} {20}}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Meyer}}\ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Christensen}},\ }\href {\doibase 10.1111/j.1740-9713.2016.00896.x}
+  {\bibfield  {journal} {\bibinfo  {journal} {Significance}\ }\textbf {\bibinfo
+  {volume} {13}},\ \bibinfo {pages} {20}}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Abbott}\ \emph
   {et~al.}(2017{\natexlab{a}})\citenamefont {Abbott} \emph
   {et~al.}}]{PhysRevLett.119.161101}%
@@ -405,14 +405,12 @@
   10.1103/PhysRevLett.120.201102} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {120}},\ \bibinfo {pages}
   {201102} (\bibinfo {year} {2018}{\natexlab{c}})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Newton}\ and\ \citenamefont
-  {Raftery}(1994)}]{Newton:Raftery:1994}%
+\bibitem [{\citenamefont {Kunsch}(1989)}]{Kunsch:1989}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
-  {Newton}}\ and\ \bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont
-  {Raftery}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J.
-  Roy. Statist. Soc. Ser. B}\ }\textbf {\bibinfo {volume} {56}},\ \bibinfo
-  {pages} {3} (\bibinfo {year} {1994})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~R.}\ \bibnamefont
+  {Kunsch}},\ }\href {\doibase 10.1214/aos/1176347265} {\bibfield  {journal}
+  {\bibinfo  {journal} {Ann. Statist.}\ }\textbf {\bibinfo {volume} {17}},\
+  \bibinfo {pages} {1217} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Xie}\ \emph {et~al.}(2011)\citenamefont {Xie},
   \citenamefont {Lewis}, \citenamefont {Fan}, \citenamefont {Kuo},\ and\
   \citenamefont {Chen}}]{Xie:Lewis:Fan:Kuo:Chen:2011}%
@@ -425,6 +423,14 @@
   10.1093/sysbio/syq085} {\bibfield  {journal} {\bibinfo  {journal} {Syst.
   Biol.}\ }\textbf {\bibinfo {volume} {60}},\ \bibinfo {pages} {150} (\bibinfo
   {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Newton}\ and\ \citenamefont
+  {Raftery}(1994)}]{Newton:Raftery:1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Newton}}\ and\ \bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont
+  {Raftery}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J.
+  Roy. Statist. Soc. Ser. B}\ }\textbf {\bibinfo {volume} {56}},\ \bibinfo
+  {pages} {3} (\bibinfo {year} {1994})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lartillot}\ and\ \citenamefont
   {Philippe}(2006)}]{Lartillot:Philippe:2006}%
   \BibitemOpen
@@ -576,12 +582,6 @@
   {Efron}},\ }\href {\doibase 10.1214/aos/1176344552} {\bibfield  {journal}
   {\bibinfo  {journal} {Ann. Statist.}\ }\textbf {\bibinfo {volume} {7}},\
   \bibinfo {pages} {1} (\bibinfo {year} {1979})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kunsch}(1989)}]{Kunsch:1989}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~R.}\ \bibnamefont
-  {Kunsch}},\ }\href {\doibase 10.1214/aos/1176347265} {\bibfield  {journal}
-  {\bibinfo  {journal} {Ann. Statist.}\ }\textbf {\bibinfo {volume} {17}},\
-  \bibinfo {pages} {1217} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lahiri}(2003)}]{Lahiri:2003}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~N.}\ \bibnamefont

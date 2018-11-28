@@ -1,17 +1,7 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: PRDSS.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: PRDSS.aux
 The style file: apsrev4-1.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: PRDSSNotes.bib
 Database file #2: PRDSS.bib
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
 Control: key (0) 
 Control: author (72) initials jnrlst
@@ -25,45 +15,4 @@ Warning--missing journal in Abbott:2018wiz
 Warning--missing journal in Abbott:2018exr
 Warning--missing journal in Weinberg:2018icl
 Warning--missing journal in Neal:1993
-You've used 52 entries,
-            5847 wiz_defined-function locations,
-            2021 strings with 26956 characters,
-and the built_in function-call counts, 53573 in all, are:
-= -- 3352
-> -- 1478
-< -- 352
-+ -- 479
-- -- 359
-* -- 8487
-:= -- 5236
-add.period$ -- 52
-call.type$ -- 52
-change.case$ -- 211
-chr.to.int$ -- 44
-cite$ -- 57
-duplicate$ -- 4953
-empty$ -- 3985
-format.name$ -- 897
-if$ -- 10697
-int.to.chr$ -- 9
-int.to.str$ -- 60
-missing$ -- 639
-newline$ -- 214
-num.names$ -- 157
-pop$ -- 1950
-preamble$ -- 1
-purify$ -- 259
-quote$ -- 0
-skip$ -- 1924
-stack$ -- 0
-substring$ -- 1343
-swap$ -- 4772
-text.length$ -- 162
-text.prefix$ -- 0
-top$ -- 8
-type$ -- 753
-warning$ -- 5
-while$ -- 153
-width$ -- 0
-write$ -- 473
 (There were 5 warnings)

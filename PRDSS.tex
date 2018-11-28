@@ -61,7 +61,13 @@ Also of critical importance is the ability to conduct model comparison and param
 
 %\jv{The above focuses on rapid parameter estimation whereas the SS method is aimed at calculating evidence. We might instead write a motivating paragraph based on the requirement of having good evidence estimates for doing model selection, especially with multiple sources. We can refer to the population studies into neutron star equation of state, tests of GR, and the stochastic CBC search.}
 
-Presented in this paper is the stepping-stone sampling (SS) algorithm that provides an improvement of the evidence estimator for Bayesian model selection and the MBB for computing its standard error. The practicality of the SS algorithm for calculating the evidence of gravitational wave models will be demonstrated. The SS algorithm could be a further advancement for model selection for gravitational waves data analysis, as well as for other applications in astrophysics and astronomy.%(Advanced LIGO \cite{aLIGO:2015},
+This paper makes two main contributions to the existing literature on evidence calculation of GW models. Firstly, 
+ this paper proposes the stepping-stone sampling (SS) algorithm \citep{Xie:Lewis:Fan:Kuo:Chen:2011} that provides an evidence estimator for Bayesian model selection and the MBB for computing its standard error.  The main advantage of the SS algorithm is its reduced computational costs in comparison to the evidence estimate based on thermodynamic integration, a
+ popular method used in the GW field.
+Furthermore, the evidence estimate based on the SS algorithm has lower standard error. 
+The practicality of the SS algorithm for calculating the evidence of gravitational wave models will be demonstrated. The SS algorithm could be a further advancement for model selection for gravitational waves data analysis, as well as for other applications in astrophysics and astronomy. Secondly, this paper introduces the MBB for a more accurate estimation of the standard error of the evidence estimate. The MBB provides a general method to compute the standard error of any quantity that is based on MCMC output.
+
+%(Advanced LIGO \cite{aLIGO:2015},
 
 % Advanced Virgo \cite{aVirgo:2015},
 
@@ -89,7 +95,7 @@ Presented in this paper is the stepping-stone sampling (SS) algorithm that provi
 
 %RJMCMC Green \cite{green:1995}
 
-The paper is structured as follows. In Section II we review nested sampling, thermodynamic integration and introduce the stepping-stone algorithm for computing the evidence of Bayesian model selection. In Section III we introduce the moving block bootstrap for calculating the Monte Carlo standard error of the evidence estimates. In Section IV we show the enhanced performance of the SS algorithm over thermodynamic integration in a simulation study. The different algorithms are then  applied  to simulated LIGO-Virgo gravitational wave data in Section V. Their results are contrasted and  the benefits of the SS  algorithm and the moving black bootstrap for standard error estimation become evident. A summary discussion is given in Section VI.
+The paper is structured as follows. In Section~II we review nested sampling, thermodynamic integration and introduce the stepping-stone algorithm for computing the evidence of Bayesian model selection. In Section~III we introduce the moving block bootstrap for calculating the Monte Carlo standard error of the evidence estimates. In Section~IV we show the enhanced performance of the SS algorithm over thermodynamic integration in a simulation study. The different algorithms are then  applied  to simulated LIGO-Virgo gravitational wave data in Section~V. Their results are contrasted and  the benefits of the SS algorithm and the moving black bootstrap for standard error estimation become evident. A summary discussion is given in Section~VI.
 
 
 
@@ -416,15 +422,22 @@ SS is a method to estimate the marginal likelihood which has enjoyed great popul
 
 The performance of SS depends on its specifications, such as the number of MCMC steps  $n$ in each parallel tempering chain, the number of temperatures $K$ and the distribution of the inverse temperature $\beta$ values.  In addition, it depends on how different the prior and the posterior are.  To mitigate the dependence on the prior distribution, we aim to explore a recent extension of SS  known as generalized steppingstone sampling \citep[GSS;][]{fan:2011}.  This method makes use of a reference distribution which aims to shorten the distance between the prior and the posterior.  Even though it requires posterior samples to construct the reference distribution, it could be more accurate than its simple version and require less steps to yield the same accuracy.  For this, the reference distribution needs to be a reasonable approximation of the posterior, otherwise it can dramatically fail \citep{Maturana:2017b}.  
 
-One of the drawbacks of power posterior methods is the lack of a direct formula for the standard error of the evidence estimate.  In practice, the methods are run multiple times in order to obtain an empirical standard error estimate. This brute force approach  will prove too computationally expensive in most practial applications.  Alternatively,  the standard bootstrap has been applied.
+One of the drawbacks of power posterior methods is the lack of a direct formula for the standard error of the evidence estimate.  In practice, the methods are run multiple times in order to obtain an empirical standard error estimate. This brute force approach  will prove too computationally expensive in most practical applications.  Alternatively,  the standard bootstrap has been applied.
 It is computationally much cheaper than the brute force approach, but it does not take  the dependencies within and between the Markov chains  into account.  In this paper, we have proposed a moving block bootstrap method.  This approach has the ability to  allow for potential autocorrelation within the chains and cross-correlation between chains.  We showed in  Example~\ref{subsec:SDest} of our simulation study that the standard bootstrap severely underestimates the standard error in the presence of autocorrelation in  Markov chains but that the moving block bootstrap  significantly improves the standard error estimates of the evidence.  
+
+The good performance of SS, shown in the simulation study presented in Section IV, was replicated in a simulated LIGO-Virgo GW dataset in Section V.  SS outperformed TI in terms of the number of temperatures required to yield evidence estimates, using as a reference a nested sampling estimate.  In addition, its estimates have lower standard errors, which were estimated via MBB using different block lengths and considering the largest standard error  as a conservative estimate.  
+
+This LIGO-Virgo application showed  the advantages of SS in the context of GW models. This method requires less computational effort than TI to yield accurate estimates of the evidence with lower standard errors.  As \cite{Veitch:2015} noticed, TI sometimes requires a larger number of temperatures than  needed for parameter inference.  This could add a significant computational cost to the GW data analysis.    SS could potentially be based on the same number of temperatures used for parameter inference, or at least requires generally  less temperatures than
+TI.  This makes SS a better alternative in  GW data analysis than TI.
+
+An implementation of the SS and TI algorithms and the MBB in  R and Python is available on Github at URL \href{https://github.com/pmat747/powModSel}{github.com/pmat747/powModSel} and \href{https://github.com/pmat747/pythonPowModSel}{github.com/pmat747/pythonPowModSel}, respectively.
 
 %{\cb importance here demonstrated for compact binary inspirals but point out that algorithm is important as well for astrophysical and cosmological model selection}. 
 
 \begin{acknowledgements}
-  We thank Claudia Kirch for helpful discussions on the block-bootstrap for time series.  We also thank the New Zealand eScience Infrastructure (NeSI) for their high performance computing facilities, and the Centre for eResearch at the University of Auckland for their technical support. The Observatoire de la C\^{o}te d'Azur also provided support for this research. PM's and RM's work is supported by Grant 3714568 from the University of Auckland Faculty Research Development Fund and the DFG Grant KI 1443/3-1. JV is supported by STFC grant ST/K005014/1. NC's work is supported by NSF grants PHY-1806990 and PHY-1505373. This paper has been given LIGO Document Number P1800299.  All analysis was conducted in \textsf{R}, an open-source statistical software available on \textsf{CRAN} (cran.r-project.org) and LALInference.
+  We thank Claudia Kirch for helpful discussions on the block-bootstrap for time series and John Siryj for the translation of R-code to Python.  We also thank the New Zealand eScience Infrastructure (NeSI) for their high performance computing facilities, and the Centre for eResearch at the University of Auckland for their technical support. The Observatoire de la C\^{o}te d'Azur also provided support for this research. PM's and RM's work is supported by Grant 3714568 from the University of Auckland Faculty Research Development Fund, the DFG Grant KI 1443/3-1 and the James Cook Fellowship from Government funding, administered by the Royal Society Te Ap\={a}rangi. JV is supported by STFC grant ST/K005014/1. NC's work is supported by NSF grants PHY-1806990 and PHY-1505373. This paper has been given LIGO Document Number P1800299.  All analysis was conducted in \textsf{R}, an open-source statistical software available on \textsf{CRAN} (cran.r-project.org) and LALInference.
 \end{acknowledgements}
-\pagebreak
+%\pagebreak
 
 %%%%%%%%%%
 
