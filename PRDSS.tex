@@ -224,16 +224,16 @@ where $L$ is the likelihood as a function of the prior volume~$\xi$.  This funct
 
 This likelihood is a non-increasing function over the unit range.  For a given decreasing sequence of $\xi$-values and an increasing sequence of $L$-values, the marginal likelihood can be estimated using, for instance, the trapezium rule
 \begin{align*}
-\widehat{z}_{NS} = \sum_{i=1}^{K} \dfrac{1}{2}(\xi_{i-1} - \xi_{i+1})L_i,
+\widehat{z}_{NS} = \sum_{i=1}^{m} \dfrac{1}{2}(\xi_{i-1} - \xi_{i+1})L_i,
 \end{align*}
-where $0 < \xi_{K+1} < \xi_{K} < \cdots < \xi_1<\xi_0 = 1$.
+where $0 < \xi_{m+1} < \xi_{m} < \cdots < \xi_1<\xi_0 = 1$.
 
-NS explores the parameter space from the prior toward those areas of high likelihood values over time.  For this, a set of $N$ points, called \textit{live} points, are drawn independently from the prior.  The point $\bm{\theta}_1$ with the lowest likelihood associated to these points is detected and the latter is registered as $L_1$.  Then, this point $\bm{\theta}_1$ is replaced by a new one $\bm{\theta}^*$ drawn from the prior but restricted to have a greater likelihood, that is $L(\bm{\theta}^*) > L(\bm{\theta}_1)$.  This procedure is repeated until a given stopping criterion is satisfied.  Thus, an increasing sequence of likelihood values $L_1, \dots, L_K$ is generated.
+NS explores the parameter space from the prior toward those areas of high likelihood values over time.  For this, a set of $N$ points, called \textit{live} points, are drawn independently from the prior.  The point $\bm{\theta}_1$ with the lowest likelihood associated to these points is detected and the latter is registered as $L_1$.  Then, this point $\bm{\theta}_1$ is replaced by a new one $\bm{\theta}^*$ drawn from the prior but restricted to have a greater likelihood, that is $L(\bm{\theta}^*) > L(\bm{\theta}_1)$.  This procedure is repeated until a given stopping criterion is satisfied.  Thus, an increasing sequence of likelihood values $L_1, \dots, L_m$ is generated.
 
 Even though the $\xi$-values cannot be measured precisely, the nature of this algorithm allows them to be estimated. 
 The $\xi$-sequence can be defined as 
 \begin{align*}
-\xi_1 = u_1,\: \xi_2 = u_2 \xi_1, \dots,\: \xi_K = u_K \xi_{K-1},
+\xi_1 = u_1,\: \xi_2 = u_2 \xi_1, \dots,\: \xi_m = u_m \xi_{m-1},
 \end{align*}
 where $u_i\sim\text{Beta}(N,1)$.  The geometric mean is the most common method to estimate the $u$-values, which yields
 \begin{align*}
@@ -383,19 +383,26 @@ needed more temperatures to achieve an evidence estimate consistent with both SS
 given that it was calculated for a large number of live points.  % {\cb John: the NS error estimate is based on the 32 runs, right? If so, we need to correct this sentence - PMR}
 
 \begin{table}
-	\caption{\label{tab:results} Evidence estimates and corresponding standard errors, and the Bayes factor relative to the model without signal from the NS, TI and SS methods for different number of temperatures $K$.}
+	\caption{\label{tab:results} Evidence estimates and their corresponding standard errors from the NS method for different number of active points $N$, and TI and SS methods for different number of temperatures $K$.}
 	\begin{ruledtabular}
 		\begin{tabular}{ccccc}
-			Method & $K$ & $\log z$ & SD& $\log B$  \\ \hline
-			NS & - &-5730.82 & 0.36  & 103.33    \\ \hline
-			TI   & 7 &-5732.79 &  0.40 & 101.36     \\
-			      & 11 &-5732.23 & 0.32 &101.92\\
-			      & 16 &-5731.80 & 0.32 &102.35\\
-			      & 31 &-5731.52 & 0.27 &102.63\\ \hline
-			SS & 7   &-5729.48 & 0.32 & 104.67  \\
-			      & 11  &-5730.14 & 0.14 &104.01\\
-			      & 16 &-5730.10 & 0.13 &104.05\\
-			      & 31 &-5730.15 & 0.13 &104.00\\
+			Method & $N$ & $K$ & $\log z$& SD   \\ \hline
+			NS     & 256 & -   &-5732.39 & 2.10 \\ 
+			       & 512 & -   &-5731.21 & 0.92 \\ 
+			       &1024 & -   &-5730.83 & 0.60 \\ 
+			       &1536 & -   &-5730.72 & 0.40 \\ \hline
+			TI     &  -  & 8   &-5731.96 & 0.32 \\
+			       &  -  & 12  &-5732.14 & 0.34 \\
+			       &  -  & 17  &-5732.29 & 0.36 \\
+			       &  -  & 31  &-5732.12 & 0.33 \\ 
+   			       &  -  & 46  &-5732.13 & 0.37 \\ 
+   			       &  -  & 61  &-5732.09 & 0.21 \\ \hline
+			SS     &  -  & 8   &-5730.06 & 0.46 \\
+			       &  -  & 12  &-5730.00 & 0.21 \\
+			       &  -  & 17  &-5730.10 & 0.20 \\
+			       &  -  & 31  &-5730.35 & 0.10 \\
+   			       &  -  & 46  &-5730.07 & 0.11 \\
+   			       &  -  & 61  &-5730.19 & 0.07 \\
 		\end{tabular}
 	\end{ruledtabular}
 \end{table}
@@ -403,8 +410,8 @@ given that it was calculated for a large number of live points.  % {\cb John: th
 
 \begin{figure}[]
 	\centering 
-	\includegraphics[scale=0.45,clip=true,angle=0]{ligo_data_results.pdf}
-	\caption{Evidence estimates $\pm$ 2 standard errors.  Subscripts in TI and SS stand for the number of temperatures.}
+	\includegraphics[scale=0.38,clip=true,angle=0]{ligo_data_results.pdf}
+	\caption{Evidence estimates $\pm$ 2 standard errors.  Subscripts in NS stand for the number of active points~$N$, in TI and SS stand for the number of temperatures~$K$.}
 	\label{fig3}
 \end{figure}
 
