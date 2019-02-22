@@ -375,8 +375,8 @@ was performed using the 15-dimensional parameterised model for a quasi-circular
 black hole binary commonly used in LIGO-Virgo analyses (e.g.~\cite{PhysRevLett.116.241102,
 O1BBH}), implemented in the LALInference package~\cite{Veitch:2015}.
 
-We estimate the marginal likelihood via NS, TI and SS and calculate the Bayes factor relative to the model without signal.  For NS, we performed 32
-runs with 2000 live points each. For TI and SS, we considered 31 temperatures, evenly spaced on a logarithmic scale, with 4700 samples from each.  From these simulations, we ran TI and SS to estimate the evidence for $K=7, 11, 16$, and $31$.  To compute the standard error of the evidence estimates, we applied the MBB method for different block lengths and took the one that yielded the maximum standard
+We estimate the marginal likelihood via NS, TI and SS and calculate the Bayes factor relative to the model without signal.  For NS, we performed 4
+runs with 256, 512, 1024 and 1536 live points each. For TI and SS, we considered 8, 12, 17, 31, 46 and 61 temperatures, evenly spaced on a logarithmic scale, with 2000 samples from each with a burn-in period of 500.  To compute the standard error of the evidence estimates, we applied the MBB method for different block lengths and took the one that yielded the maximum standard
 deviation  as a conservative way of estimation. The results are displayed in Table~\ref{tab:results} and visualized in Figure~\ref{fig3}.
 The evidence estimates of SS and NS are closer than of SS and TI. In the light of the performance of  TI in the simulation study, it seems that TI would have
 needed more temperatures to achieve an evidence estimate consistent with both SS and NS. The standard error of the NS evidence estimate is quite large, especially
