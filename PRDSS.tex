@@ -375,15 +375,20 @@ was performed using the 15-dimensional parameterised model for a quasi-circular
 black hole binary commonly used in LIGO-Virgo analyses (e.g.~\cite{PhysRevLett.116.241102,
 O1BBH}), implemented in the LALInference package~\cite{Veitch:2015}.
 
-We estimate the marginal likelihood via NS, TI and SS and calculate the Bayes factor relative to the model without signal.  For NS, we performed 4
-runs with 256, 512, 1024 and 1536 live points each. For TI and SS, we considered 8, 12, 17, 31, 46 and 61 temperatures, evenly spaced on a logarithmic scale, with 2000 samples from each with a burn-in period of 500.  To compute the standard error of the evidence estimates, we applied the MBB method for different block lengths and took the one that yielded the maximum standard
+We estimate the marginal likelihood via NS, TI and SS.  For NS, we performed 4
+runs with 256, 512, 1024 and 1536 live points each. For TI and SS, we considered 8, 12, 17, 31, 46 and 61 temperatures, evenly spaced on a logarithmic scale, with 2000 samples from each with a burn-in period of 500.  To compute the standard error of the evidence estimates, we applied the MBB method for different block lengths, including the standard bootstrap ($\ell =1$), and took the one that yielded the maximum standard
 deviation  as a conservative way of estimation. The results are displayed in Table~\ref{tab:results} and visualized in Figure~\ref{fig3}.
-The evidence estimates of SS and NS are closer than of SS and TI. In the light of the performance of  TI in the simulation study, it seems that TI would have
-needed more temperatures to achieve an evidence estimate consistent with both SS and NS. The standard error of the NS evidence estimate is quite large, especially
-given that it was calculated for a large number of live points.  % {\cb John: the NS error estimate is based on the 32 runs, right? If so, we need to correct this sentence - PMR}
+
+The NS evidence estimates have an increasing trend, and their standard error values decrease, as the number of live points increase. This is a well known behaviour of this method.  Taking the NS estimate with the largest number of live points, that is $N=1536$, as a reference, we can see that all SS estimates are closer than the TI ones to this value.  The TI estimate which is the closest to the NS estimate is 1.24 units away, that is 3.09 NS SDs, whereas the SS estimate, which is utmost, is 0.72 units away, that is 1.8 NS SDs.  In other words, the best TI estimate is farther away than the worst SS estimate, in terms of the reference value. 
+
+The lowest TI SD, which is reached for $K=61$, required 91,500 ($61\times1500$) likelihood evaluations.  On the other had, the same SS SD is obtained for $K=12$, which only required 16,500 ($11\times1500$) likelihood evaluations.  Thus, SS is roughly 5.6 times more efficient than TI in this example. 
+
+Interestingly, as the number of temperature increases, the TI estimates seems not to converge to the NS estimate, which could be due to the number of samples considered per temperature.  This is not the case for SS, which always yields results closer to our reference value.  \\
+
+%The evidence estimates of SS and NS are closer than of SS and TI. In the light of the performance of  TI in the simulation study, it seems that TI would have needed more temperatures to achieve an evidence estimate consistent with both SS and NS. The standard error of the NS evidence estimate is quite large, especially given that it was calculated for a large number of live points.  % {\cb John: the NS error estimate is based on the 32 runs, right? If so, we need to correct this sentence - PMR}
 
 \begin{table}
-	\caption{\label{tab:results} Evidence estimates and their corresponding standard errors from the NS method for different number of active points $N$, and TI and SS methods for different number of temperatures $K$.}
+	\caption{\label{tab:results} Evidence estimates and their corresponding standard errors from the NS method for different number of live points $N$, and TI and SS methods for different number of temperatures $K$.}
 	\begin{ruledtabular}
 		\begin{tabular}{ccccc}
 			Method & $N$ & $K$ & $\log z$& SD   \\ \hline
@@ -411,7 +416,7 @@ given that it was calculated for a large number of live points.  % {\cb John: th
 \begin{figure}[]
 	\centering 
 	\includegraphics[scale=0.38,clip=true,angle=0]{ligo_data_results.pdf}
-	\caption{Evidence estimates $\pm$ 2 standard errors.  Subscripts in NS stand for the number of active points~$N$, in TI and SS stand for the number of temperatures~$K$.}
+	\caption{Evidence estimates $\pm$ 2 standard errors.  Subscripts in NS stand for the number of live points~$N$, in TI and SS stand for the number of temperatures~$K$.}
 	\label{fig3}
 \end{figure}
 
