@@ -31,7 +31,7 @@
 % Define author, title, and date
 \title[Stepping-stone sampling algorithm for evidence computation]{The stepping-stone sampling algorithm for calculating the evidence of gravitational wave models}
 
-\author{Patricio Maturana Russel$^{1}$, Renate Meyer$^1$, John Veitch$^2$ and Nelson Christensen$^{3,4}$}
+\author{Patricio Maturana-Russel$^{1}$, Renate Meyer$^1$, John Veitch$^2$ and Nelson Christensen$^{3,4}$}
 \affiliation{$^1$ Department of
   Statistics, University of Auckland, Auckland 1142, New Zealand \\
 $^2$ Institute for Gravitational Research, School of Physics and Astronomy, University of Glasgow, Glasgow G12 8QQ, United Kingdom\\
@@ -380,9 +380,9 @@ deviation  as a conservative way of estimation.   The standard error for the NS 
 
 The NS evidence estimates have an increasing trend, and their standard error values decrease, as the number of live points increase. This is a well known behaviour of this method.  Taking the NS estimate with the largest number of live points, that is $N=2048$, we can see that all SS estimates are closer than the TI ones to this value.  The TI estimate which is the closest to the NS estimate is 1.14 units away, that is 3.16 NS SDs, whereas the SS estimate, which is utmost, is 0.82 units away, that is 2.28 NS SDs.  In other words, the best TI estimate is farther away than the worst SS estimate from the NS estimate.
 
-The lowest TI standard error of $\text{SD}=0.21$ in this example, which is reached for $K=61$, required $2.44\times10^8$ ($61\times2000^2$) likelihood evaluations.  On the other hand, the same SS SD is obtained for $K=12$, which only required $4.4\times10^7$ ($11\times2000^2$) likelihood evaluations.  Thus, SS is roughly 5.5 times more efficient than TI in this example.  %Note that even with 2048 live points, the NS standard error of 0.36 is 5.1 times  larger than the standard error of the SS estimate with 61 temperatures.
+Interestingly, as the number of temperature increases, the TI estimates do not seem  to converge to the NS estimate, which could be due to the number of samples considered per temperature.  This is not the case for SS, which always yields results closer to the NS estimate with the largest number of active points.
 
-Interestingly, as the number of temperature increases, the TI estimates do not seem  to converge to the NS estimate, which could be due to the number of samples considered per temperature.  This is not the case for SS, which always yields results closer to the NS estimate with the largest number of active points.  \\
+The lowest TI standard error of $\text{SD}=0.21$ in this example, which is reached for $K=61$, required $2.44\times10^8$ ($61\times2000^2$) likelihood evaluations.  On the other hand, the same SS SD is obtained for $K=12$, which only required $4.4\times10^7$ ($11\times2000^2$) likelihood evaluations.  Thus, SS is roughly 5.5 times more efficient than TI at achieving the same level of precision in this example.  %Note that even with 2048 live points, the NS standard error of 0.36 is 5.1 times  larger than the standard error of the SS estimate with 61 temperatures.
 
 %The evidence estimates of SS and NS are closer than of SS and TI. In the light of the performance of  TI in the simulation study, it seems that TI would have needed more temperatures to achieve an evidence estimate consistent with both SS and NS. The standard error of the NS evidence estimate is quite large, especially given that it was calculated for a large number of live points.  % {\cb John: the NS error estimate is based on the 32 runs, right? If so, we need to correct this sentence - PMR}
 
